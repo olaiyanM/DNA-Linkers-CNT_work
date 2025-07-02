@@ -11,7 +11,7 @@ Equilibration
     ntwe=0,                   ! No writing of energy data
     ntwr=500,                 ! Restart file written every 500 steps
     ntpr=500,                 ! Printing output every 500 steps
-    ntb=1, ntp=0,             ! Constant volume (NVT ensemble)
+    ntb=2, ntp=1,             ! Constant P (NPT ensemble)
     cut=10.0,                 ! Non-bonded cutoff
     ntr=1,                    ! Apply restraints
     restraintmask=':1-26',   ! Restraints applied to residues 1 to 26
