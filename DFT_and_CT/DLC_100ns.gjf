@@ -1,0 +1,2157 @@
+%chk=DLCa.chk
+
+%nprocshared=40
+
+%mem=364GB
+
+#p b3lyp/6-31g(d,p) scrf=(solvent=water) geom=connectivity pop=orbitals=10 scf=maxcycles=256  guess=read output=(matrix,i4lab)
+
+DNA-Linker-CNT06
+
+-22 1
+ H(PDBName=HO5P,ResName=DG5,ResNum=1_X)              0   88.87100000   31.13200000   53.71700000 L
+ O(PDBName=O5P,ResName=DG5,ResNum=1_X)               0   89.24100000   30.39800000   53.18700000 L
+ C(PDBName=C5P,ResName=DG5,ResNum=1_X)               0   90.59600000   30.70500000   52.86600000 L
+ H(PDBName=H5P,ResName=DG5,ResNum=1_X)               0   90.66800000   31.74100000   52.53000000 L
+ H(PDBName=H5PP,ResName=DG5,ResNum=1_X)              0   90.91700000   30.06600000   52.04200000 L
+ C(PDBName=C4P,ResName=DG5,ResNum=1_X)               0   91.56800000   30.49700000   54.04300000 L
+ H(PDBName=H4P,ResName=DG5,ResNum=1_X)               0   92.57600000   30.75200000   53.71100000 L
+ O(PDBName=O4P,ResName=DG5,ResNum=1_X)               0   91.20000000   31.33200000   55.14000000 L
+ C(PDBName=C1P,ResName=DG5,ResNum=1_X)               0   91.34400000   30.57700000   56.33200000 L
+ H(PDBName=H1P,ResName=DG5,ResNum=1_X)               0   92.39700000   30.53200000   56.62200000 L
+ N(PDBName=N9,ResName=DG5,ResNum=1_X)                0   90.53700000   31.13100000   57.44600000 L
+ C(PDBName=C8,ResName=DG5,ResNum=1_X)                0   89.54600000   32.08000000   57.39100000 L
+ H(PDBName=H8,ResName=DG5,ResNum=1_X)                0   89.22800000   32.52000000   56.45900000 L
+ N(PDBName=N7,ResName=DG5,ResNum=1_X)                0   89.06400000   32.43600000   58.55200000 L
+ C(PDBName=C5,ResName=DG5,ResNum=1_X)                0   89.78700000   31.64400000   59.45400000 L
+ C(PDBName=C6,ResName=DG5,ResNum=1_X)                0   89.75900000   31.57400000   60.89100000 L
+ O(PDBName=O6,ResName=DG5,ResNum=1_X)                0   89.07500000   32.22100000   61.68500000 L
+ N(PDBName=N1,ResName=DG5,ResNum=1_X)                0   90.63500000   30.64600000   61.41500000 L
+ H(PDBName=H1,ResName=DG5,ResNum=1_X)                0   90.65700000   30.53400000   62.41700000 L
+ C(PDBName=C2,ResName=DG5,ResNum=1_X)                0   91.45900000   29.88200000   60.66300000 L
+ N(PDBName=N2,ResName=DG5,ResNum=1_X)                0   92.19500000   29.00900000   61.29300000 L
+ H(PDBName=H21,ResName=DG5,ResNum=1_X)               0   92.12500000   28.90100000   62.30100000 L
+ H(PDBName=H22,ResName=DG5,ResNum=1_X)               0   92.76000000   28.37800000   60.73900000 L
+ N(PDBName=N3,ResName=DG5,ResNum=1_X)                0   91.55400000   29.93800000   59.33600000 L
+ C(PDBName=C4,ResName=DG5,ResNum=1_X)                0   90.68100000   30.83600000   58.78400000 L
+ C(PDBName=C3P,ResName=DG5,ResNum=1_X)               0   91.57800000   29.05000000   54.56400000 L
+ H(PDBName=H3P,ResName=DG5,ResNum=1_X)               0   90.99200000   28.41200000   53.90000000 L
+ C(PDBName=C2P,ResName=DG5,ResNum=1_X)               0   90.87700000   29.19200000   55.91200000 L
+ H(PDBName=H2P,ResName=DG5,ResNum=1_X)               0   89.79600000   29.18500000   55.77500000 L
+ H(PDBName=H2PP,ResName=DG5,ResNum=1_X)              0   91.19400000   28.42800000   56.62200000 L
+ O(PDBName=O3P,ResName=DG5,ResNum=1_X)               0   92.90400000   28.54500000   54.73600000 L
+ P(PDBName=P,ResName=DG,ResNum=2_X)                  0   93.18900000   26.97800000   54.55800000 L
+ O(PDBName=OP1,ResName=DG,ResNum=2_X)                0   94.64700000   26.73100000   54.68300000 L
+ O(PDBName=OP2,ResName=DG,ResNum=2_X)                0   92.49600000   26.51700000   53.33400000 L
+ O(PDBName=O5P,ResName=DG,ResNum=2_X)                0   92.42500000   26.32600000   55.79500000 L
+ C(PDBName=C5P,ResName=DG,ResNum=2_X)                0   93.01800000   25.35100000   56.63700000 L
+ H(PDBName=H5P,ResName=DG,ResNum=2_X)                0   93.82200000   25.80800000   57.21000000 L
+ H(PDBName=H5PP,ResName=DG,ResNum=2_X)               0   93.43100000   24.55000000   56.02100000 L
+ C(PDBName=C4P,ResName=DG,ResNum=2_X)                0   91.99700000   24.73500000   57.60400000 L
+ H(PDBName=H4P,ResName=DG,ResNum=2_X)                0   92.46500000   23.89700000   58.12200000 L
+ O(PDBName=O4P,ResName=DG,ResNum=2_X)                0   91.54200000   25.69000000   58.56200000 L
+ C(PDBName=C1P,ResName=DG,ResNum=2_X)                0   90.13700000   25.53700000   58.65100000 L
+ H(PDBName=H1P,ResName=DG,ResNum=2_X)                0   89.89700000   24.64800000   59.24300000 L
+ N(PDBName=N9,ResName=DG,ResNum=2_X)                 0   89.46000000   26.69800000   59.25700000 L
+ C(PDBName=C8,ResName=DG,ResNum=2_X)                 0   88.78400000   27.72700000   58.64400000 L
+ H(PDBName=H8,ResName=DG,ResNum=2_X)                 0   88.73200000   27.83300000   57.56900000 L
+ N(PDBName=N7,ResName=DG,ResNum=2_X)                 0   88.18000000   28.54000000   59.46800000 L
+ C(PDBName=C5,ResName=DG,ResNum=2_X)                 0   88.51300000   28.02000000   60.72500000 L
+ C(PDBName=C6,ResName=DG,ResNum=2_X)                 0   88.17200000   28.46100000   62.04500000 L
+ O(PDBName=O6,ResName=DG,ResNum=2_X)                 0   87.50800000   29.44000000   62.37100000 L
+ N(PDBName=N1,ResName=DG,ResNum=2_X)                 0   88.66600000   27.65900000   63.04900000 L
+ H(PDBName=H1,ResName=DG,ResNum=2_X)                 0   88.45400000   27.92400000   64.00000000 L
+ C(PDBName=C2,ResName=DG,ResNum=2_X)                 0   89.40500000   26.54900000   62.82500000 L
+ N(PDBName=N2,ResName=DG,ResNum=2_X)                 0   89.72700000   25.84000000   63.87200000 L
+ H(PDBName=H21,ResName=DG,ResNum=2_X)                0   89.45600000   26.15400000   64.80000000 L
+ H(PDBName=H22,ResName=DG,ResNum=2_X)                0   90.22400000   24.98400000   63.71200000 L
+ N(PDBName=N3,ResName=DG,ResNum=2_X)                 0   89.75500000   26.09000000   61.62400000 L
+ C(PDBName=C4,ResName=DG,ResNum=2_X)                 0   89.28400000   26.88500000   60.60700000 L
+ C(PDBName=C3P,ResName=DG,ResNum=2_X)                0   90.75000000   24.22400000   56.86700000 L
+ H(PDBName=H3P,ResName=DG,ResNum=2_X)                0   90.90600000   24.15700000   55.79200000 L
+ C(PDBName=C2P,ResName=DG,ResNum=2_X)                0   89.72900000   25.28900000   57.20500000 L
+ H(PDBName=H2P,ResName=DG,ResNum=2_X)                0   89.88700000   26.17600000   56.59000000 L
+ H(PDBName=H2PP,ResName=DG,ResNum=2_X)               0   88.71200000   24.90800000   57.13400000 L
+ O(PDBName=O3P,ResName=DG,ResNum=2_X)                0   90.26300000   23.01600000   57.41100000 L
+ P(PDBName=P,ResName=DG,ResNum=3_X)                  0   90.58400000   21.62500000   56.74100000 L
+ O(PDBName=OP1,ResName=DG,ResNum=3_X)                0   92.03500000   21.55700000   56.48500000 L
+ O(PDBName=OP2,ResName=DG,ResNum=3_X)                0   89.64700000   21.43000000   55.61100000 L
+ O(PDBName=O5P,ResName=DG,ResNum=3_X)                0   90.21600000   20.66200000   57.95800000 L
+ C(PDBName=C5P,ResName=DG,ResNum=3_X)                0   91.18300000   20.42300000   58.97500000 L
+ H(PDBName=H5P,ResName=DG,ResNum=3_X)                0   91.77700000   21.32500000   59.12500000 L
+ H(PDBName=H5PP,ResName=DG,ResNum=3_X)               0   91.85800000   19.63600000   58.63300000 L
+ C(PDBName=C4P,ResName=DG,ResNum=3_X)                0   90.62500000   20.03200000   60.35000000 L
+ H(PDBName=H4P,ResName=DG,ResNum=3_X)                0   91.47200000   19.68600000   60.93800000 L
+ O(PDBName=O4P,ResName=DG,ResNum=3_X)                0   90.03900000   21.14700000   61.02500000 L
+ C(PDBName=C1P,ResName=DG,ResNum=3_X)                0   88.64500000   20.92600000   61.19300000 L
+ H(PDBName=H1P,ResName=DG,ResNum=3_X)                0   88.43400000   20.66700000   62.23400000 L
+ N(PDBName=N9,ResName=DG,ResNum=3_X)                 0   87.93000000   22.17200000   60.81800000 L
+ C(PDBName=C8,ResName=DG,ResNum=3_X)                 0   87.77700000   22.72100000   59.56600000 L
+ H(PDBName=H8,ResName=DG,ResNum=3_X)                 0   88.16900000   22.24100000   58.67600000 L
+ N(PDBName=N7,ResName=DG,ResNum=3_X)                 0   87.14700000   23.86800000   59.55000000 L
+ C(PDBName=C5,ResName=DG,ResNum=3_X)                 0   86.88400000   24.11700000   60.90700000 L
+ C(PDBName=C6,ResName=DG,ResNum=3_X)                 0   86.25900000   25.23300000   61.57500000 L
+ O(PDBName=O6,ResName=DG,ResNum=3_X)                 0   85.81200000   26.28200000   61.11000000 L
+ N(PDBName=N1,ResName=DG,ResNum=3_X)                 0   86.17900000   25.08800000   62.94100000 L
+ H(PDBName=H1,ResName=DG,ResNum=3_X)                 0   85.73600000   25.82500000   63.47000000 L
+ C(PDBName=C2,ResName=DG,ResNum=3_X)                 0   86.66900000   24.02400000   63.61100000 L
+ N(PDBName=N2,ResName=DG,ResNum=3_X)                 0   86.52400000   24.04600000   64.90600000 L
+ H(PDBName=H21,ResName=DG,ResNum=3_X)                0   86.03100000   24.81400000   65.35600000 L
+ H(PDBName=H22,ResName=DG,ResNum=3_X)                0   86.85500000   23.26000000   65.43800000 L
+ N(PDBName=N3,ResName=DG,ResNum=3_X)                 0   87.27600000   22.97500000   63.05300000 L
+ C(PDBName=C4,ResName=DG,ResNum=3_X)                 0   87.35200000   23.07800000   61.68700000 L
+ C(PDBName=C3P,ResName=DG,ResNum=3_X)                0   89.59100000   18.90900000   60.33900000 L
+ H(PDBName=H3P,ResName=DG,ResNum=3_X)                0   89.69300000   18.28400000   59.44900000 L
+ C(PDBName=C2P,ResName=DG,ResNum=3_X)                0   88.29800000   19.71700000   60.32000000 L
+ H(PDBName=H2P,ResName=DG,ResNum=3_X)                0   88.07600000   20.02300000   59.29800000 L
+ H(PDBName=H2PP,ResName=DG,ResNum=3_X)               0   87.47200000   19.14400000   60.73500000 L
+ O(PDBName=O3P,ResName=DG,ResNum=3_X)                0   89.79500000   18.15000000   61.52400000 L
+ P(PDBName=P,ResName=DC,ResNum=4_X)                  0   88.96300000   16.84500000   61.88400000 L
+ O(PDBName=OP1,ResName=DC,ResNum=4_X)                0   89.88600000   15.99000000   62.66700000 L
+ O(PDBName=OP2,ResName=DC,ResNum=4_X)                0   88.35900000   16.30100000   60.65400000 L
+ O(PDBName=O5P,ResName=DC,ResNum=4_X)                0   87.80800000   17.41500000   62.82800000 L
+ C(PDBName=C5P,ResName=DC,ResNum=4_X)                0   88.12300000   17.99200000   64.08900000 L
+ H(PDBName=H5P,ResName=DC,ResNum=4_X)                0   88.95900000   18.68400000   63.97100000 L
+ H(PDBName=H5PP,ResName=DC,ResNum=4_X)               0   88.43100000   17.20600000   64.78000000 L
+ C(PDBName=C4P,ResName=DC,ResNum=4_X)                0   86.95900000   18.77600000   64.71000000 L
+ H(PDBName=H4P,ResName=DC,ResNum=4_X)                0   87.30100000   19.18900000   65.65900000 L
+ O(PDBName=O4P,ResName=DC,ResNum=4_X)                0   86.55900000   19.84700000   63.85500000 L
+ C(PDBName=C1P,ResName=DC,ResNum=4_X)                0   85.14500000   19.87900000   63.85500000 L
+ H(PDBName=H1P,ResName=DC,ResNum=4_X)                0   84.79700000   20.31600000   64.79500000 L
+ N(PDBName=N1,ResName=DC,ResNum=4_X)                 0   84.63500000   20.66100000   62.69900000 L
+ C(PDBName=C6,ResName=DC,ResNum=4_X)                 0   84.87600000   20.25400000   61.41100000 L
+ H(PDBName=H6,ResName=DC,ResNum=4_X)                 0   85.35400000   19.29700000   61.23700000 L
+ C(PDBName=C5,ResName=DC,ResNum=4_X)                 0   84.54500000   21.06200000   60.37500000 L
+ H(PDBName=H5,ResName=DC,ResNum=4_X)                 0   84.74800000   20.75500000   59.36300000 L
+ C(PDBName=C4,ResName=DC,ResNum=4_X)                 0   83.94400000   22.30900000   60.68500000 L
+ N(PDBName=N4,ResName=DC,ResNum=4_X)                 0   83.69000000   23.15900000   59.73900000 L
+ H(PDBName=H41,ResName=DC,ResNum=4_X)                0   83.33700000   24.07100000   59.99500000 L
+ H(PDBName=H42,ResName=DC,ResNum=4_X)                0   84.01600000   22.96300000   58.80500000 L
+ N(PDBName=N3,ResName=DC,ResNum=4_X)                 0   83.68800000   22.71600000   61.91000000 L
+ C(PDBName=C2,ResName=DC,ResNum=4_X)                 0   84.00000000   21.88900000   62.93600000 L
+ O(PDBName=O2,ResName=DC,ResNum=4_X)                 0   83.70900000   22.26400000   64.07600000 L
+ C(PDBName=C3P,ResName=DC,ResNum=4_X)                0   85.69800000   17.94700000   64.98700000 L
+ H(PDBName=H3P,ResName=DC,ResNum=4_X)                0   85.90500000   16.87700000   64.94500000 L
+ C(PDBName=C2P,ResName=DC,ResNum=4_X)                0   84.77600000   18.40100000   63.86200000 L
+ H(PDBName=H2P,ResName=DC,ResNum=4_X)                0   85.05200000   17.91100000   62.92900000 L
+ H(PDBName=H2PP,ResName=DC,ResNum=4_X)               0   83.72700000   18.23800000   64.10800000 L
+ O(PDBName=O3P,ResName=DC,ResNum=4_X)                0   85.15400000   18.34800000   66.23800000 L
+ P(PDBName=P,ResName=DC,ResNum=5_X)                  0   84.23400000   17.39100000   67.10600000 L
+ O(PDBName=OP1,ResName=DC,ResNum=5_X)                0   85.07300000   16.82500000   68.18700000 L
+ O(PDBName=OP2,ResName=DC,ResNum=5_X)                0   83.54700000   16.45600000   66.18800000 L
+ O(PDBName=O5P,ResName=DC,ResNum=5_X)                0   83.15600000   18.37200000   67.74900000 L
+ C(PDBName=C5P,ResName=DC,ResNum=5_X)                0   83.52400000   19.23100000   68.81900000 L
+ H(PDBName=H5P,ResName=DC,ResNum=5_X)                0   84.44100000   19.75700000   68.54500000 L
+ H(PDBName=H5PP,ResName=DC,ResNum=5_X)               0   83.73700000   18.62600000   69.70100000 L
+ C(PDBName=C4P,ResName=DC,ResNum=5_X)                0   82.47100000   20.28600000   69.18900000 L
+ H(PDBName=H4P,ResName=DC,ResNum=5_X)                0   82.90100000   20.93300000   69.95400000 L
+ O(PDBName=O4P,ResName=DC,ResNum=5_X)                0   82.16100000   21.05800000   68.03100000 L
+ C(PDBName=C1P,ResName=DC,ResNum=5_X)                0   80.79600000   20.88100000   67.69100000 L
+ H(PDBName=H1P,ResName=DC,ResNum=5_X)                0   80.23500000   21.72700000   68.09100000 L
+ N(PDBName=N1,ResName=DC,ResNum=5_X)                 0   80.67600000   20.82300000   66.19900000 L
+ C(PDBName=C6,ResName=DC,ResNum=5_X)                 0   81.12200000   19.74000000   65.48200000 L
+ H(PDBName=H6,ResName=DC,ResNum=5_X)                 0   81.48500000   18.86400000   66.00700000 L
+ C(PDBName=C5,ResName=DC,ResNum=5_X)                 0   81.12500000   19.77400000   64.12500000 L
+ H(PDBName=H5,ResName=DC,ResNum=5_X)                 0   81.47400000   18.92200000   63.56400000 L
+ C(PDBName=C4,ResName=DC,ResNum=5_X)                 0   80.66700000   20.96000000   63.49200000 L
+ N(PDBName=N4,ResName=DC,ResNum=5_X)                 0   80.70600000   21.06500000   62.19700000 L
+ H(PDBName=H41,ResName=DC,ResNum=5_X)                0   80.43200000   21.93300000   61.76000000 L
+ H(PDBName=H42,ResName=DC,ResNum=5_X)                0   80.95000000   20.25600000   61.63700000 L
+ N(PDBName=N3,ResName=DC,ResNum=5_X)                 0   80.23000000   22.01200000   64.15500000 L
+ C(PDBName=C2,ResName=DC,ResNum=5_X)                 0   80.22200000   21.95700000   65.51000000 L
+ O(PDBName=O2,ResName=DC,ResNum=5_X)                 0   79.80400000   22.95200000   66.10800000 L
+ C(PDBName=C3P,ResName=DC,ResNum=5_X)                0   81.15500000   19.71400000   69.73200000 L
+ H(PDBName=H3P,ResName=DC,ResNum=5_X)                0   81.32600000   18.72300000   70.15400000 L
+ C(PDBName=C2P,ResName=DC,ResNum=5_X)                0   80.32400000   19.63900000   68.45500000 L
+ H(PDBName=H2P,ResName=DC,ResNum=5_X)                0   80.56100000   18.72000000   67.92000000 L
+ H(PDBName=H2PP,ResName=DC,ResNum=5_X)               0   79.26000000   19.68200000   68.67600000 L
+ O(PDBName=O3P,ResName=DC,ResNum=5_X)                0   80.62000000   20.60700000   70.71400000 L
+ P(PDBName=P,ResName=DC,ResNum=6_X)                  0   79.46200000   20.19100000   71.74200000 L
+ O(PDBName=OP1,ResName=DC,ResNum=6_X)                0   79.52200000   21.09400000   72.91700000 L
+ O(PDBName=OP2,ResName=DC,ResNum=6_X)                0   79.53600000   18.72900000   71.96800000 L
+ O(PDBName=O5P,ResName=DC,ResNum=6_X)                0   78.11500000   20.52700000   70.93100000 L
+ C(PDBName=C5P,ResName=DC,ResNum=6_X)                0   77.64300000   21.87300000   70.90100000 L
+ H(PDBName=H5P,ResName=DC,ResNum=6_X)                0   78.49500000   22.55100000   70.81600000 L
+ H(PDBName=H5PP,ResName=DC,ResNum=6_X)               0   77.14700000   22.08900000   71.84100000 L
+ C(PDBName=C4P,ResName=DC,ResNum=6_X)                0   76.65800000   22.22900000   69.78600000 L
+ H(PDBName=H4P,ResName=DC,ResNum=6_X)                0   76.30600000   23.24800000   69.95600000 L
+ O(PDBName=O4P,ResName=DC,ResNum=6_X)                0   77.28800000   22.17700000   68.51700000 L
+ C(PDBName=C1P,ResName=DC,ResNum=6_X)                0   76.26300000   22.11500000   67.53800000 L
+ H(PDBName=H1P,ResName=DC,ResNum=6_X)                0   76.09900000   23.11000000   67.11100000 L
+ N(PDBName=N1,ResName=DC,ResNum=6_X)                 0   76.63700000   21.15600000   66.46700000 L
+ C(PDBName=C6,ResName=DC,ResNum=6_X)                 0   77.12800000   19.91300000   66.77500000 L
+ H(PDBName=H6,ResName=DC,ResNum=6_X)                 0   77.18500000   19.60000000   67.81200000 L
+ C(PDBName=C5,ResName=DC,ResNum=6_X)                 0   77.55700000   19.09400000   65.78500000 L
+ H(PDBName=H5,ResName=DC,ResNum=6_X)                 0   77.96000000   18.12300000   66.02400000 L
+ C(PDBName=C4,ResName=DC,ResNum=6_X)                 0   77.45000000   19.56800000   64.45200000 L
+ N(PDBName=N4,ResName=DC,ResNum=6_X)                 0   77.92700000   18.85400000   63.47800000 L
+ H(PDBName=H41,ResName=DC,ResNum=6_X)                0   77.91800000   19.25900000   62.55300000 L
+ H(PDBName=H42,ResName=DC,ResNum=6_X)                0   78.33600000   17.95600000   63.69200000 L
+ N(PDBName=N3,ResName=DC,ResNum=6_X)                 0   76.94200000   20.74300000   64.13100000 L
+ C(PDBName=C2,ResName=DC,ResNum=6_X)                 0   76.49100000   21.53900000   65.12800000 L
+ O(PDBName=O2,ResName=DC,ResNum=6_X)                 0   75.95400000   22.60900000   64.81700000 L
+ C(PDBName=C3P,ResName=DC,ResNum=6_X)                0   75.43700000   21.31900000   69.67700000 L
+ H(PDBName=H3P,ResName=DC,ResNum=6_X)                0   75.75200000   20.27600000   69.71600000 L
+ C(PDBName=C2P,ResName=DC,ResNum=6_X)                0   74.99100000   21.67800000   68.26400000 L
+ H(PDBName=H2P,ResName=DC,ResNum=6_X)                0   74.52600000   20.81800000   67.78900000 L
+ H(PDBName=H2PP,ResName=DC,ResNum=6_X)               0   74.29400000   22.51500000   68.28700000 L
+ O(PDBName=O3P,ResName=DC,ResNum=6_X)                0   74.42400000   21.60200000   70.63900000 L
+ P(PDBName=P,ResName=DG,ResNum=7_X)                  0   73.07000000   20.74000000   70.69400000 L
+ O(PDBName=OP1,ResName=DG,ResNum=7_X)                0   72.38700000   21.01500000   71.97900000 L
+ O(PDBName=OP2,ResName=DG,ResNum=7_X)                0   73.41400000   19.34200000   70.38100000 L
+ O(PDBName=O5P,ResName=DG,ResNum=7_X)                0   72.17300000   21.31800000   69.51000000 L
+ C(PDBName=C5P,ResName=DG,ResNum=7_X)                0   71.77500000   22.68200000   69.48900000 L
+ H(PDBName=H5P,ResName=DG,ResNum=7_X)                0   72.65500000   23.31000000   69.62100000 L
+ H(PDBName=H5PP,ResName=DG,ResNum=7_X)               0   71.09400000   22.87600000   70.32100000 L
+ C(PDBName=C4P,ResName=DG,ResNum=7_X)                0   71.09800000   23.10500000   68.17600000 L
+ H(PDBName=H4P,ResName=DG,ResNum=7_X)                0   70.94000000   24.18400000   68.21900000 L
+ O(PDBName=O4P,ResName=DG,ResNum=7_X)                0   71.92500000   22.80900000   67.05000000 L
+ C(PDBName=C1P,ResName=DG,ResNum=7_X)                0   71.22100000   21.95500000   66.15700000 L
+ H(PDBName=H1P,ResName=DG,ResNum=7_X)                0   70.73800000   22.55300000   65.38100000 L
+ N(PDBName=N9,ResName=DG,ResNum=7_X)                 0   72.14700000   20.97500000   65.54200000 L
+ C(PDBName=C8,ResName=DG,ResNum=7_X)                 0   72.77900000   19.91300000   66.14200000 L
+ H(PDBName=H8,ResName=DG,ResNum=7_X)                 0   72.64600000   19.67500000   67.19200000 L
+ N(PDBName=N7,ResName=DG,ResNum=7_X)                 0   73.56600000   19.23800000   65.34900000 L
+ C(PDBName=C5,ResName=DG,ResNum=7_X)                 0   73.42000000   19.87900000   64.11400000 L
+ C(PDBName=C6,ResName=DG,ResNum=7_X)                 0   73.99000000   19.59900000   62.82200000 L
+ O(PDBName=O6,ResName=DG,ResNum=7_X)                 0   74.77700000   18.71500000   62.48900000 L
+ N(PDBName=N1,ResName=DG,ResNum=7_X)                 0   73.54700000   20.44300000   61.82800000 L
+ H(PDBName=H1,ResName=DG,ResNum=7_X)                 0   73.88800000   20.27600000   60.89300000 L
+ C(PDBName=C2,ResName=DG,ResNum=7_X)                 0   72.66400000   21.44700000   62.03000000 L
+ N(PDBName=N2,ResName=DG,ResNum=7_X)                 0   72.31400000   22.13900000   60.98300000 L
+ H(PDBName=H21,ResName=DG,ResNum=7_X)                0   72.66000000   21.87700000   60.06400000 L
+ H(PDBName=H22,ResName=DG,ResNum=7_X)                0   71.59300000   22.82800000   61.08800000 L
+ N(PDBName=N3,ResName=DG,ResNum=7_X)                 0   72.13000000   21.76700000   63.20900000 L
+ C(PDBName=C4,ResName=DG,ResNum=7_X)                 0   72.54000000   20.93600000   64.22000000 L
+ C(PDBName=C3P,ResName=DG,ResNum=7_X)                0   69.74400000   22.42200000   67.94000000 L
+ H(PDBName=H3P,ResName=DG,ResNum=7_X)                0   69.33600000   22.03800000   68.87500000 L
+ C(PDBName=C2P,ResName=DG,ResNum=7_X)                0   70.14700000   21.28700000   67.01000000 L
+ H(PDBName=H2P,ResName=DG,ResNum=7_X)                0   70.57000000   20.47100000   67.59600000 L
+ H(PDBName=H2PP,ResName=DG,ResNum=7_X)               0   69.31100000   20.92900000   66.41500000 L
+ O(PDBName=O3P,ResName=DG,ResNum=7_X)                0   68.86100000   23.37900000   67.36300000 L
+ P(PDBName=P,ResName=DG,ResNum=8_X)                  0   67.38400000   23.04600000   66.84600000 L
+ O(PDBName=OP1,ResName=DG,ResNum=8_X)                0   66.63100000   24.31700000   66.89900000 L
+ O(PDBName=OP2,ResName=DG,ResNum=8_X)                0   66.85600000   21.87800000   67.58800000 L
+ O(PDBName=O5P,ResName=DG,ResNum=8_X)                0   67.59200000   22.62600000   65.31400000 L
+ C(PDBName=C5P,ResName=DG,ResNum=8_X)                0   68.05700000   23.57700000   64.36000000 L
+ H(PDBName=H5P,ResName=DG,ResNum=8_X)                0   69.13600000   23.69100000   64.45900000 L
+ H(PDBName=H5PP,ResName=DG,ResNum=8_X)               0   67.61100000   24.54300000   64.58000000 L
+ C(PDBName=C4P,ResName=DG,ResNum=8_X)                0   67.71700000   23.26900000   62.89200000 L
+ H(PDBName=H4P,ResName=DG,ResNum=8_X)                0   67.74300000   24.22200000   62.36100000 L
+ O(PDBName=O4P,ResName=DG,ResNum=8_X)                0   68.66300000   22.39400000   62.28500000 L
+ C(PDBName=C1P,ResName=DG,ResNum=8_X)                0   68.06200000   21.13200000   62.04000000 L
+ H(PDBName=H1P,ResName=DG,ResNum=8_X)                0   67.92100000   20.99200000   60.96400000 L
+ N(PDBName=N9,ResName=DG,ResNum=8_X)                 0   68.94800000   20.06500000   62.56000000 L
+ C(PDBName=C8,ResName=DG,ResNum=8_X)                 0   69.06200000   19.59600000   63.84600000 L
+ H(PDBName=H8,ResName=DG,ResNum=8_X)                 0   68.48400000   20.01400000   64.66100000 L
+ N(PDBName=N7,ResName=DG,ResNum=8_X)                 0   69.91300000   18.61400000   63.99400000 L
+ C(PDBName=C5,ResName=DG,ResNum=8_X)                 0   70.41600000   18.42700000   62.69700000 L
+ C(PDBName=C6,ResName=DG,ResNum=8_X)                 0   71.38400000   17.49600000   62.17600000 L
+ O(PDBName=O6,ResName=DG,ResNum=8_X)                 0   72.00500000   16.61000000   62.77100000 L
+ N(PDBName=N1,ResName=DG,ResNum=8_X)                 0   71.62800000   17.65100000   60.82600000 L
+ H(PDBName=H1,ResName=DG,ResNum=8_X)                 0   72.28800000   17.03100000   60.38100000 L
+ C(PDBName=C2,ResName=DG,ResNum=8_X)                 0   71.02900000   18.59100000   60.05700000 L
+ N(PDBName=N2,ResName=DG,ResNum=8_X)                 0   71.36900000   18.63000000   58.79900000 L
+ H(PDBName=H21,ResName=DG,ResNum=8_X)                0   72.02000000   17.95300000   58.41200000 L
+ H(PDBName=H22,ResName=DG,ResNum=8_X)                0   70.98700000   19.37400000   58.23200000 L
+ N(PDBName=N3,ResName=DG,ResNum=8_X)                 0   70.11500000   19.45900000   60.48300000 L
+ C(PDBName=C4,ResName=DG,ResNum=8_X)                 0   69.84900000   19.33000000   61.82000000 L
+ C(PDBName=C3P,ResName=DG,ResNum=8_X)                0   66.33000000   22.64800000   62.70300000 L
+ H(PDBName=H3P,ResName=DG,ResNum=8_X)                0   65.68500000   22.89900000   63.54500000 L
+ C(PDBName=C2P,ResName=DG,ResNum=8_X)                0   66.68600000   21.16300000   62.71100000 L
+ H(PDBName=H2P,ResName=DG,ResNum=8_X)                0   66.74000000   20.81900000   63.74200000 L
+ H(PDBName=H2PP,ResName=DG,ResNum=8_X)               0   65.96500000   20.55800000   62.16600000 L
+ O(PDBName=O3P,ResName=DG,ResNum=8_X)                0   65.74300000   23.10200000   61.49000000 L
+ P(PDBName=P,ResName=DG,ResNum=9_X)                  0   64.32700000   22.57400000   60.97500000 L
+ O(PDBName=OP1,ResName=DG,ResNum=9_X)                0   63.74600000   23.66600000   60.15800000 L
+ O(PDBName=OP2,ResName=DG,ResNum=9_X)                0   63.56300000   22.05400000   62.12500000 L
+ O(PDBName=O5P,ResName=DG,ResNum=9_X)                0   64.77900000   21.35800000   60.04700000 L
+ C(PDBName=C5P,ResName=DG,ResNum=9_X)                0   65.61300000   21.58500000   58.91800000 L
+ H(PDBName=H5P,ResName=DG,ResNum=9_X)                0   66.48400000   22.16700000   59.21800000 L
+ H(PDBName=H5PP,ResName=DG,ResNum=9_X)               0   65.06500000   22.15800000   58.17200000 L
+ C(PDBName=C4P,ResName=DG,ResNum=9_X)                0   66.13000000   20.30900000   58.25400000 L
+ H(PDBName=H4P,ResName=DG,ResNum=9_X)                0   66.69800000   20.62300000   57.38300000 L
+ O(PDBName=O4P,ResName=DG,ResNum=9_X)                0   67.03200000   19.58500000   59.07800000 L
+ C(PDBName=C1P,ResName=DG,ResNum=9_X)                0   67.00600000   18.25600000   58.59800000 L
+ H(PDBName=H1P,ResName=DG,ResNum=9_X)                0   67.50800000   18.17900000   57.62900000 L
+ N(PDBName=N9,ResName=DG,ResNum=9_X)                 0   67.62500000   17.32300000   59.56100000 L
+ C(PDBName=C8,ResName=DG,ResNum=9_X)                 0   67.42000000   17.24300000   60.91600000 L
+ H(PDBName=H8,ResName=DG,ResNum=9_X)                 0   66.73400000   17.90500000   61.43200000 L
+ N(PDBName=N7,ResName=DG,ResNum=9_X)                 0   68.14100000   16.32900000   61.51300000 L
+ C(PDBName=C5,ResName=DG,ResNum=9_X)                 0   68.84400000   15.72400000   60.45800000 L
+ C(PDBName=C6,ResName=DG,ResNum=9_X)                 0   69.78500000   14.63200000   60.43100000 L
+ O(PDBName=O6,ResName=DG,ResNum=9_X)                 0   70.24900000   13.97100000   61.35900000 L
+ N(PDBName=N1,ResName=DG,ResNum=9_X)                 0   70.21400000   14.30300000   59.16600000 L
+ H(PDBName=H1,ResName=DG,ResNum=9_X)                 0   70.81900000   13.50100000   59.08300000 L
+ C(PDBName=C2,ResName=DG,ResNum=9_X)                 0   69.81600000   14.94700000   58.04800000 L
+ N(PDBName=N2,ResName=DG,ResNum=9_X)                 0   70.23200000   14.46900000   56.90900000 L
+ H(PDBName=H21,ResName=DG,ResNum=9_X)                0   70.78900000   13.62100000   56.90200000 L
+ H(PDBName=H22,ResName=DG,ResNum=9_X)                0   69.84700000   14.86000000   56.06700000 L
+ N(PDBName=N3,ResName=DG,ResNum=9_X)                 0   69.00000000   15.99800000   58.01300000 L
+ C(PDBName=C4,ResName=DG,ResNum=9_X)                 0   68.52800000   16.32900000   59.25800000 L
+ C(PDBName=C3P,ResName=DG,ResNum=9_X)                0   65.04600000   19.32600000   57.78000000 L
+ H(PDBName=H3P,ResName=DG,ResNum=9_X)                0   64.06300000   19.60600000   58.16900000 L
+ C(PDBName=C2P,ResName=DG,ResNum=9_X)                0   65.51400000   18.01900000   58.42300000 L
+ H(PDBName=H2P,ResName=DG,ResNum=9_X)                0   65.04100000   17.89600000   59.39500000 L
+ H(PDBName=H2PP,ResName=DG,ResNum=9_X)               0   65.31600000   17.15700000   57.79400000 L
+ O(PDBName=O3P,ResName=DG,ResNum=9_X)                0   65.03200000   19.26500000   56.35500000 L
+ P(PDBName=P,ResName=DC,ResNum=10_X)                 0   64.01400000   18.31700000   55.55300000 L
+ O(PDBName=OP1,ResName=DC,ResNum=10_X)               0   63.63500000   19.01300000   54.30500000 L
+ O(PDBName=OP2,ResName=DC,ResNum=10_X)               0   62.93900000   17.85900000   56.45700000 L
+ O(PDBName=O5P,ResName=DC,ResNum=10_X)               0   64.91400000   17.05400000   55.17200000 L
+ C(PDBName=C5P,ResName=DC,ResNum=10_X)               0   66.00300000   17.18400000   54.26400000 L
+ H(PDBName=H5P,ResName=DC,ResNum=10_X)               0   66.80100000   17.75800000   54.73600000 L
+ H(PDBName=H5PP,ResName=DC,ResNum=10_X)              0   65.67100000   17.73000000   53.38200000 L
+ C(PDBName=C4P,ResName=DC,ResNum=10_X)               0   66.57900000   15.84500000   53.78200000 L
+ H(PDBName=H4P,ResName=DC,ResNum=10_X)               0   67.30800000   16.06900000   53.00200000 L
+ O(PDBName=O4P,ResName=DC,ResNum=10_X)               0   67.24700000   15.17200000   54.84300000 L
+ C(PDBName=C1P,ResName=DC,ResNum=10_X)               0   66.63300000   13.91400000   55.06600000 L
+ H(PDBName=H1P,ResName=DC,ResNum=10_X)               0   67.20400000   13.13900000   54.54300000 L
+ N(PDBName=N1,ResName=DC,ResNum=10_X)                0   66.60600000   13.65800000   56.53200000 L
+ C(PDBName=C6,ResName=DC,ResNum=10_X)                0   65.82300000   14.41100000   57.37500000 L
+ H(PDBName=H6,ResName=DC,ResNum=10_X)                0   65.18400000   15.18100000   56.95600000 L
+ C(PDBName=C5,ResName=DC,ResNum=10_X)                0   65.87000000   14.20800000   58.71600000 L
+ H(PDBName=H5,ResName=DC,ResNum=10_X)                0   65.26600000   14.80400000   59.37900000 L
+ C(PDBName=C4,ResName=DC,ResNum=10_X)                0   66.75800000   13.20800000   59.19100000 L
+ N(PDBName=N4,ResName=DC,ResNum=10_X)                0   66.88400000   12.99000000   60.46800000 L
+ H(PDBName=H41,ResName=DC,ResNum=10_X)               0   67.54900000   12.29800000   60.78500000 L
+ H(PDBName=H42,ResName=DC,ResNum=10_X)               0   66.32200000   13.49000000   61.13700000 L
+ N(PDBName=N3,ResName=DC,ResNum=10_X)                0   67.52800000   12.48400000   58.40500000 L
+ C(PDBName=C2,ResName=DC,ResNum=10_X)                0   67.46300000   12.68800000   57.06700000 L
+ O(PDBName=O2,ResName=DC,ResNum=10_X)                0   68.18000000   11.98700000   56.34800000 L
+ C(PDBName=C3P,ResName=DC,ResNum=10_X)               0   65.51600000   14.88900000   53.21400000 L
+ H(PDBName=H3P,ResName=DC,ResNum=10_X)               0   64.61300000   15.43500000   52.93100000 L
+ C(PDBName=C2P,ResName=DC,ResNum=10_X)               0   65.24700000   14.00000000   54.42300000 L
+ H(PDBName=H2P,ResName=DC,ResNum=10_X)               0   64.52900000   14.49400000   55.07600000 L
+ H(PDBName=H2PP,ResName=DC,ResNum=10_X)              0   64.87200000   13.02000000   54.13900000 L
+ O(PDBName=O3P,ResName=DC,ResNum=10_X)               0   66.04500000   14.18700000   52.09100000 L
+ P(PDBName=P,ResName=DC,ResNum=11_X)                 0   65.24300000   13.03600000   51.32000000 L
+ O(PDBName=OP1,ResName=DC,ResNum=11_X)               0   65.73700000   13.02600000   49.92600000 L
+ O(PDBName=OP2,ResName=DC,ResNum=11_X)               0   63.79400000   13.21800000   51.54900000 L
+ O(PDBName=O5P,ResName=DC,ResNum=11_X)               0   65.72900000   11.68500000   52.01200000 L
+ C(PDBName=C5P,ResName=DC,ResNum=11_X)               0   67.05900000   11.22600000   51.78900000 L
+ H(PDBName=H5P,ResName=DC,ResNum=11_X)               0   67.76600000   11.94600000   52.20400000 L
+ H(PDBName=H5PP,ResName=DC,ResNum=11_X)              0   67.23400000   11.15900000   50.71600000 L
+ C(PDBName=C4P,ResName=DC,ResNum=11_X)               0   67.38000000    9.84600000   52.36400000 L
+ H(PDBName=H4P,ResName=DC,ResNum=11_X)               0   68.37000000    9.57200000   52.00000000 L
+ O(PDBName=O4P,ResName=DC,ResNum=11_X)               0   67.39900000    9.88600000   53.78400000 L
+ C(PDBName=C1P,ResName=DC,ResNum=11_X)               0   66.59100000    8.83400000   54.27800000 L
+ H(PDBName=H1P,ResName=DC,ResNum=11_X)               0   67.18700000    7.92200000   54.37000000 L
+ N(PDBName=N1,ResName=DC,ResNum=11_X)                0   66.02300000    9.23000000   55.59600000 L
+ C(PDBName=C6,ResName=DC,ResNum=11_X)                0   65.23600000   10.34600000   55.72800000 L
+ H(PDBName=H6,ResName=DC,ResNum=11_X)                0   64.94800000   10.89800000   54.84100000 L
+ C(PDBName=C5,ResName=DC,ResNum=11_X)                0   64.85400000   10.76000000   56.96300000 L
+ H(PDBName=H5,ResName=DC,ResNum=11_X)                0   64.24200000   11.64000000   57.07900000 L
+ C(PDBName=C4,ResName=DC,ResNum=11_X)                0   65.30700000   10.00200000   58.07600000 L
+ N(PDBName=N4,ResName=DC,ResNum=11_X)                0   65.04800000   10.38100000   59.28900000 L
+ H(PDBName=H41,ResName=DC,ResNum=11_X)               0   65.44400000    9.84400000   60.04200000 L
+ H(PDBName=H42,ResName=DC,ResNum=11_X)               0   64.49000000   11.21100000   59.44600000 L
+ N(PDBName=N3,ResName=DC,ResNum=11_X)                0   66.03100000    8.90800000   57.97200000 L
+ C(PDBName=C2,ResName=DC,ResNum=11_X)                0   66.38400000    8.49800000   56.73200000 L
+ O(PDBName=O2,ResName=DC,ResNum=11_X)                0   67.04200000    7.46200000   56.64400000 L
+ C(PDBName=C3P,ResName=DC,ResNum=11_X)               0   66.39700000    8.75200000   51.92800000 L
+ H(PDBName=H3P,ResName=DC,ResNum=11_X)               0   65.79100000    9.09500000   51.08600000 L
+ C(PDBName=C2P,ResName=DC,ResNum=11_X)               0   65.55400000    8.60400000   53.18700000 L
+ H(PDBName=H2P,ResName=DC,ResNum=11_X)               0   64.79200000    9.38000000   53.20600000 L
+ H(PDBName=H2PP,ResName=DC,ResNum=11_X)              0   65.11200000    7.61200000   53.25800000 L
+ O(PDBName=O3P,ResName=DC,ResNum=11_X)               0   67.10500000    7.55700000   51.60400000 L
+ P(PDBName=P,ResName=DC3,ResNum=12_X)                0   66.41100000    6.35300000   50.81200000 L
+ O(PDBName=OP1,ResName=DC3,ResNum=12_X)              0   67.47500000    5.61500000   50.08800000 L
+ O(PDBName=OP2,ResName=DC3,ResNum=12_X)              0   65.26700000    6.88500000   50.04000000 L
+ O(PDBName=O5P,ResName=DC3,ResNum=12_X)              0   65.84000000    5.43400000   51.97900000 L
+ C(PDBName=C5P,ResName=DC3,ResNum=12_X)              0   66.68900000    4.60700000   52.76900000 L
+ H(PDBName=H5P,ResName=DC3,ResNum=12_X)              0   67.48600000    5.20900000   53.20800000 L
+ H(PDBName=H5PP,ResName=DC3,ResNum=12_X)             0   67.14400000    3.84400000   52.13800000 L
+ C(PDBName=C4P,ResName=DC3,ResNum=12_X)              0   65.92600000    3.90800000   53.90600000 L
+ H(PDBName=H4P,ResName=DC3,ResNum=12_X)              0   66.54200000    3.09300000   54.28900000 L
+ O(PDBName=O4P,ResName=DC3,ResNum=12_X)              0   65.67700000    4.82400000   54.96700000 L
+ C(PDBName=C1P,ResName=DC3,ResNum=12_X)              0   64.40300000    4.52400000   55.49500000 L
+ H(PDBName=H1P,ResName=DC3,ResNum=12_X)              0   64.46300000    3.60500000   56.08400000 L
+ N(PDBName=N1,ResName=DC3,ResNum=12_X)               0   63.89900000    5.65000000   56.33500000 L
+ C(PDBName=C6,ResName=DC3,ResNum=12_X)               0   63.51400000    6.83900000   55.76700000 L
+ H(PDBName=H6,ResName=DC3,ResNum=12_X)               0   63.59800000    6.97300000   54.69700000 L
+ C(PDBName=C5,ResName=DC3,ResNum=12_X)               0   63.01000000    7.83000000   56.54000000 L
+ H(PDBName=H5,ResName=DC3,ResNum=12_X)               0   62.68800000    8.75900000   56.09600000 L
+ C(PDBName=C4,ResName=DC3,ResNum=12_X)               0   62.91200000    7.59000000   57.93500000 L
+ N(PDBName=N4,ResName=DC3,ResNum=12_X)               0   62.41000000    8.49800000   58.71400000 L
+ H(PDBName=H41,ResName=DC3,ResNum=12_X)              0   62.42600000    8.33600000   59.70700000 L
+ H(PDBName=H42,ResName=DC3,ResNum=12_X)              0   62.02400000    9.33900000   58.29700000 L
+ N(PDBName=N3,ResName=DC3,ResNum=12_X)               0   63.31500000    6.47800000   58.51700000 L
+ C(PDBName=C2,ResName=DC3,ResNum=12_X)               0   63.79500000    5.48900000   57.72800000 L
+ O(PDBName=O2,ResName=DC3,ResNum=12_X)               0   64.09300000    4.43600000   58.30300000 L
+ C(PDBName=C3P,ResName=DC3,ResNum=12_X)              0   64.56300000    3.33700000   53.46300000 L
+ H(PDBName=H3P,ResName=DC3,ResNum=12_X)              0   64.42000000    3.45600000   52.38700000 L
+ C(PDBName=C2P,ResName=DC3,ResNum=12_X)              0   63.59500000    4.23300000   54.22700000 L
+ H(PDBName=H2P,ResName=DC3,ResNum=12_X)              0   63.42000000    5.14100000   53.65200000 L
+ H(PDBName=H2PP,ResName=DC3,ResNum=12_X)             0   62.65600000    3.72500000   54.44400000 L
+ O(PDBName=O3P,ResName=DC3,ResNum=12_X)              0   64.34100000    1.98000000   53.83100000 L
+ H(PDBName=HO3P,ResName=DC3,ResNum=12_X)             0   63.50200000    1.71600000   53.36800000 L
+ H(PDBName=HO5P,ResName=DG5,ResNum=13_X)             0   63.25000000    7.20800000   69.21900000 L
+ O(PDBName=O5P,ResName=DG5,ResNum=13_X)              0   64.08200000    7.01100000   69.71000000 L
+ C(PDBName=C5P,ResName=DG5,ResNum=13_X)              0   64.16200000    5.59800000   69.84500000 L
+ H(PDBName=H5P,ResName=DG5,ResNum=13_X)              0   63.15600000    5.18600000   69.94000000 L
+ H(PDBName=H5PP,ResName=DG5,ResNum=13_X)             0   64.70700000    5.36500000   70.76100000 L
+ C(PDBName=C4P,ResName=DG5,ResNum=13_X)              0   64.87500000    4.89700000   68.67300000 L
+ H(PDBName=H4P,ResName=DG5,ResNum=13_X)              0   64.91700000    3.83300000   68.91300000 L
+ O(PDBName=O4P,ResName=DG5,ResNum=13_X)              0   64.18000000    5.05100000   67.43300000 L
+ C(PDBName=C1P,ResName=DG5,ResNum=13_X)              0   65.10500000    5.39100000   66.40400000 L
+ H(PDBName=H1P,ResName=DG5,ResNum=13_X)              0   65.52800000    4.49300000   65.94600000 L
+ N(PDBName=N9,ResName=DG5,ResNum=13_X)               0   64.42300000    6.23600000   65.39000000 L
+ C(PDBName=C8,ResName=DG5,ResNum=13_X)               0   63.70500000    7.38100000   65.64200000 L
+ H(PDBName=H8,ResName=DG5,ResNum=13_X)               0   63.59400000    7.78100000   66.64300000 L
+ N(PDBName=N7,ResName=DG5,ResNum=13_X)               0   63.15500000    7.92200000   64.59100000 L
+ C(PDBName=C5,ResName=DG5,ResNum=13_X)               0   63.54300000    7.06900000   63.55200000 L
+ C(PDBName=C6,ResName=DG5,ResNum=13_X)               0   63.24100000    7.12200000   62.15000000 L
+ O(PDBName=O6,ResName=DG5,ResNum=13_X)               0   62.55800000    7.94300000   61.53300000 L
+ N(PDBName=N1,ResName=DG5,ResNum=13_X)               0   63.80300000    6.10200000   61.42200000 L
+ H(PDBName=H1,ResName=DG5,ResNum=13_X)               0   63.64100000    6.11000000   60.42500000 L
+ C(PDBName=C2,ResName=DG5,ResNum=13_X)               0   64.58900000    5.14100000   61.95900000 L
+ N(PDBName=N2,ResName=DG5,ResNum=13_X)               0   65.10800000    4.31300000   61.09200000 L
+ H(PDBName=H21,ResName=DG5,ResNum=13_X)              0   64.86100000    4.38900000   60.11100000 L
+ H(PDBName=H22,ResName=DG5,ResNum=13_X)              0   65.78900000    3.63400000   61.39100000 L
+ N(PDBName=N3,ResName=DG5,ResNum=13_X)               0   64.90700000    5.03900000   63.25700000 L
+ C(PDBName=C4,ResName=DG5,ResNum=13_X)               0   64.33800000    6.03800000   64.01800000 L
+ C(PDBName=C3P,ResName=DG5,ResNum=13_X)              0   66.31100000    5.39000000   68.45900000 L
+ H(PDBName=H3P,ResName=DG5,ResNum=13_X)              0   66.63000000    6.03900000   69.27800000 L
+ C(PDBName=C2P,ResName=DG5,ResNum=13_X)              0   66.19200000    6.16100000   67.15000000 L
+ H(PDBName=H2P,ResName=DG5,ResNum=13_X)              0   65.86500000    7.18000000   67.36000000 L
+ H(PDBName=H2PP,ResName=DG5,ResNum=13_X)             0   67.13100000    6.16200000   66.60400000 L
+ O(PDBName=O3P,ResName=DG5,ResNum=13_X)              0   67.14300000    4.24700000   68.35300000 L
+ P(PDBName=P,ResName=DG,ResNum=14_X)                 0   68.73000000    4.30300000   68.42200000 L
+ O(PDBName=OP1,ResName=DG,ResNum=14_X)               0   69.16200000    3.08500000   69.14700000 L
+ O(PDBName=OP2,ResName=DG,ResNum=14_X)               0   69.17200000    5.62500000   68.92200000 L
+ O(PDBName=O5P,ResName=DG,ResNum=14_X)               0   69.16800000    4.16900000   66.89300000 L
+ C(PDBName=C5P,ResName=DG,ResNum=14_X)               0   68.89600000    2.96300000   66.19100000 L
+ H(PDBName=H5P,ResName=DG,ResNum=14_X)               0   67.82700000    2.90500000   65.97900000 L
+ H(PDBName=H5PP,ResName=DG,ResNum=14_X)              0   69.13800000    2.12800000   66.83400000 L
+ C(PDBName=C4P,ResName=DG,ResNum=14_X)               0   69.67100000    2.73500000   64.88700000 L
+ H(PDBName=H4P,ResName=DG,ResNum=14_X)               0   69.64200000    1.66200000   64.69700000 L
+ O(PDBName=O4P,ResName=DG,ResNum=14_X)               0   69.02600000    3.39500000   63.81200000 L
+ C(PDBName=C1P,ResName=DG,ResNum=14_X)               0   69.81000000    4.49300000   63.37700000 L
+ H(PDBName=H1P,ResName=DG,ResNum=14_X)               0   70.22400000    4.28700000   62.38600000 L
+ N(PDBName=N9,ResName=DG,ResNum=14_X)                0   68.91500000    5.67000000   63.30400000 L
+ C(PDBName=C8,ResName=DG,ResNum=14_X)                0   68.49600000    6.50100000   64.31000000 L
+ H(PDBName=H8,ResName=DG,ResNum=14_X)                0   68.83200000    6.36900000   65.33100000 L
+ N(PDBName=N7,ResName=DG,ResNum=14_X)                0   67.67300000    7.44700000   63.93100000 L
+ C(PDBName=C5,ResName=DG,ResNum=14_X)                0   67.52300000    7.21000000   62.55500000 L
+ C(PDBName=C6,ResName=DG,ResNum=14_X)                0   66.74600000    7.88000000   61.54100000 L
+ O(PDBName=O6,ResName=DG,ResNum=14_X)                0   65.98000000    8.84300000   61.64600000 L
+ N(PDBName=N1,ResName=DG,ResNum=14_X)                0   66.89900000    7.33200000   60.28400000 L
+ H(PDBName=H1,ResName=DG,ResNum=14_X)                0   66.45400000    7.80000000   59.50700000 L
+ C(PDBName=C2,ResName=DG,ResNum=14_X)                0   67.64100000    6.22900000   60.02500000 L
+ N(PDBName=N2,ResName=DG,ResNum=14_X)                0   67.63800000    5.79400000   58.79800000 L
+ H(PDBName=H21,ResName=DG,ResNum=14_X)               0   67.23000000    6.35500000   58.05800000 L
+ H(PDBName=H22,ResName=DG,ResNum=14_X)               0   68.24100000    5.01700000   58.55900000 L
+ N(PDBName=N3,ResName=DG,ResNum=14_X)                0   68.33200000    5.54300000   60.93200000 L
+ C(PDBName=C4,ResName=DG,ResNum=14_X)                0   68.26000000    6.10600000   62.17700000 L
+ C(PDBName=C3P,ResName=DG,ResNum=14_X)               0   71.13600000    3.18500000   64.87800000 L
+ H(PDBName=H3P,ResName=DG,ResNum=14_X)               0   71.56500000    3.16800000   65.88200000 L
+ C(PDBName=C2P,ResName=DG,ResNum=14_X)               0   70.96000000    4.61900000   64.37800000 L
+ H(PDBName=H2P,ResName=DG,ResNum=14_X)               0   70.67800000    5.25200000   65.21500000 L
+ H(PDBName=H2PP,ResName=DG,ResNum=14_X)              0   71.86200000    5.01000000   63.91200000 L
+ O(PDBName=O3P,ResName=DG,ResNum=14_X)               0   71.87800000    2.34300000   63.99700000 L
+ P(PDBName=P,ResName=DG,ResNum=15_X)                 0   73.42600000    2.60000000   63.66200000 L
+ O(PDBName=OP1,ResName=DG,ResNum=15_X)               0   74.01300000    1.34600000   63.13600000 L
+ O(PDBName=OP2,ResName=DG,ResNum=15_X)               0   74.08800000    3.29400000   64.78400000 L
+ O(PDBName=O5P,ResName=DG,ResNum=15_X)               0   73.33100000    3.60100000   62.44800000 L
+ C(PDBName=C5P,ResName=DG,ResNum=15_X)               0   72.79800000    3.17000000   61.21000000 L
+ H(PDBName=H5P,ResName=DG,ResNum=15_X)               0   71.78300000    2.81800000   61.36100000 L
+ H(PDBName=H5PP,ResName=DG,ResNum=15_X)              0   73.39400000    2.35700000   60.80000000 L
+ C(PDBName=C4P,ResName=DG,ResNum=15_X)               0   72.76200000    4.29800000   60.19400000 L
+ H(PDBName=H4P,ResName=DG,ResNum=15_X)               0   72.52900000    3.87000000   59.22100000 L
+ O(PDBName=O4P,ResName=DG,ResNum=15_X)               0   71.74000000    5.21500000   60.53800000 L
+ C(PDBName=C1P,ResName=DG,ResNum=15_X)               0   72.26300000    6.50000000   60.31200000 L
+ H(PDBName=H1P,ResName=DG,ResNum=15_X)               0   72.24100000    6.71800000   59.24100000 L
+ N(PDBName=N9,ResName=DG,ResNum=15_X)                0   71.47300000    7.52000000   61.02500000 L
+ C(PDBName=C8,ResName=DG,ResNum=15_X)                0   71.45600000    7.85900000   62.35500000 L
+ H(PDBName=H8,ResName=DG,ResNum=15_X)                0   72.04600000    7.33400000   63.09600000 L
+ N(PDBName=N7,ResName=DG,ResNum=15_X)                0   70.66600000    8.86200000   62.64000000 L
+ C(PDBName=C5,ResName=DG,ResNum=15_X)                0   70.12900000    9.21900000   61.39300000 L
+ C(PDBName=C6,ResName=DG,ResNum=15_X)                0   69.22100000   10.26300000   60.99400000 L
+ O(PDBName=O6,ResName=DG,ResNum=15_X)                0   68.64200000   11.09600000   61.69000000 L
+ N(PDBName=N1,ResName=DG,ResNum=15_X)                0   68.99700000   10.31100000   59.63200000 L
+ H(PDBName=H1,ResName=DG,ResNum=15_X)                0   68.42100000   11.05500000   59.27200000 L
+ C(PDBName=C2,ResName=DG,ResNum=15_X)                0   69.54200000    9.44400000   58.74900000 L
+ N(PDBName=N2,ResName=DG,ResNum=15_X)                0   69.32600000    9.64500000   57.48100000 L
+ H(PDBName=H21,ResName=DG,ResNum=15_X)               0   68.79000000   10.44700000   57.16300000 L
+ H(PDBName=H22,ResName=DG,ResNum=15_X)               0   69.65000000    8.92000000   56.85500000 L
+ N(PDBName=N3,ResName=DG,ResNum=15_X)                0   70.36100000    8.45300000   59.06700000 L
+ C(PDBName=C4,ResName=DG,ResNum=15_X)                0   70.61900000    8.39500000   60.40700000 L
+ C(PDBName=C3P,ResName=DG,ResNum=15_X)               0   74.09400000    5.06100000   60.11700000 L
+ H(PDBName=H3P,ResName=DG,ResNum=15_X)               0   74.87600000    4.55500000   60.68900000 L
+ C(PDBName=C2P,ResName=DG,ResNum=15_X)               0   73.70700000    6.38100000   60.77400000 L
+ H(PDBName=H2P,ResName=DG,ResNum=15_X)               0   73.75800000    6.28300000   61.86000000 L
+ H(PDBName=H2PP,ResName=DG,ResNum=15_X)              0   74.31300000    7.21200000   60.42300000 L
+ O(PDBName=O3P,ResName=DG,ResNum=15_X)               0   74.48400000    5.21500000   58.76000000 L
+ P(PDBName=P,ResName=DC,ResNum=16_X)                 0   75.92800000    5.75200000   58.35300000 L
+ O(PDBName=OP1,ResName=DC,ResNum=16_X)               0   76.60200000    4.66900000   57.60300000 L
+ O(PDBName=OP2,ResName=DC,ResNum=16_X)               0   76.61100000    6.33400000   59.52900000 L
+ O(PDBName=O5P,ResName=DC,ResNum=16_X)               0   75.58100000    6.96900000   57.39300000 L
+ C(PDBName=C5P,ResName=DC,ResNum=16_X)               0   75.16100000    6.77900000   56.05100000 L
+ H(PDBName=H5P,ResName=DC,ResNum=16_X)               0   74.49500000    5.91900000   55.98000000 L
+ H(PDBName=H5PP,ResName=DC,ResNum=16_X)              0   76.03300000    6.59600000   55.41800000 L
+ C(PDBName=C4P,ResName=DC,ResNum=16_X)               0   74.40600000    8.01600000   55.54200000 L
+ H(PDBName=H4P,ResName=DC,ResNum=16_X)               0   74.09600000    7.84700000   54.50800000 L
+ O(PDBName=O4P,ResName=DC,ResNum=16_X)               0   73.25000000    8.25500000   56.34200000 L
+ C(PDBName=C1P,ResName=DC,ResNum=16_X)               0   72.95700000    9.65000000   56.33300000 L
+ H(PDBName=H1P,ResName=DC,ResNum=16_X)               0   72.00300000    9.82200000   55.82100000 L
+ N(PDBName=N1,ResName=DC,ResNum=16_X)                0   72.88200000   10.23500000   57.70300000 L
+ C(PDBName=C6,ResName=DC,ResNum=16_X)                0   73.50600000    9.65700000   58.78000000 L
+ H(PDBName=H6,ResName=DC,ResNum=16_X)                0   74.11400000    8.77000000   58.63000000 L
+ C(PDBName=C5,ResName=DC,ResNum=16_X)                0   73.33500000   10.18200000   60.02100000 L
+ H(PDBName=H5,ResName=DC,ResNum=16_X)                0   73.79300000    9.71500000   60.87800000 L
+ C(PDBName=C4,ResName=DC,ResNum=16_X)                0   72.51400000   11.33600000   60.13900000 L
+ N(PDBName=N4,ResName=DC,ResNum=16_X)                0   72.23600000   11.84300000   61.30000000 L
+ H(PDBName=H41,ResName=DC,ResNum=16_X)               0   71.57900000   12.61500000   61.32100000 L
+ H(PDBName=H42,ResName=DC,ResNum=16_X)               0   72.57300000   11.39300000   62.13900000 L
+ N(PDBName=N3,ResName=DC,ResNum=16_X)                0   71.95900000   11.94000000   59.11300000 L
+ C(PDBName=C2,ResName=DC,ResNum=16_X)                0   72.15100000   11.41700000   57.88300000 L
+ O(PDBName=O2,ResName=DC,ResNum=16_X)                0   71.66000000   12.02600000   56.93200000 L
+ C(PDBName=C3P,ResName=DC,ResNum=16_X)               0   75.21900000    9.31200000   55.61500000 L
+ H(PDBName=H3P,ResName=DC,ResNum=16_X)               0   75.72500000    9.37500000   56.57900000 L
+ C(PDBName=C2P,ResName=DC,ResNum=16_X)               0   74.08000000   10.31500000   55.54000000 L
+ H(PDBName=H2P,ResName=DC,ResNum=16_X)               0   74.37300000   11.27400000   55.96600000 L
+ H(PDBName=H2PP,ResName=DC,ResNum=16_X)              0   73.76000000   10.44600000   54.50500000 L
+ O(PDBName=O3P,ResName=DC,ResNum=16_X)               0   76.10500000    9.49800000   54.51700000 L
+ P(PDBName=P,ResName=DC,ResNum=17_X)                 0   77.34500000   10.50700000   54.60800000 L
+ O(PDBName=OP1,ResName=DC,ResNum=17_X)               0   78.09300000   10.40400000   53.34000000 L
+ O(PDBName=OP2,ResName=DC,ResNum=17_X)               0   78.05100000   10.20600000   55.87100000 L
+ O(PDBName=O5P,ResName=DC,ResNum=17_X)               0   76.73100000   11.99200000   54.71500000 L
+ C(PDBName=C5P,ResName=DC,ResNum=17_X)               0   75.93600000   12.50900000   53.64700000 L
+ H(PDBName=H5P,ResName=DC,ResNum=17_X)               0   75.21600000   11.75300000   53.32800000 L
+ H(PDBName=H5PP,ResName=DC,ResNum=17_X)              0   76.58500000   12.70000000   52.79200000 L
+ C(PDBName=C4P,ResName=DC,ResNum=17_X)               0   75.13300000   13.79100000   53.94900000 L
+ H(PDBName=H4P,ResName=DC,ResNum=17_X)               0   74.39000000   13.89900000   53.15700000 L
+ O(PDBName=O4P,ResName=DC,ResNum=17_X)               0   74.43900000   13.68900000   55.18800000 L
+ C(PDBName=C1P,ResName=DC,ResNum=17_X)               0   74.42800000   14.96700000   55.79600000 L
+ H(PDBName=H1P,ResName=DC,ResNum=17_X)               0   73.67900000   15.61600000   55.32500000 L
+ N(PDBName=N1,ResName=DC,ResNum=17_X)                0   74.21900000   14.86600000   57.26400000 L
+ C(PDBName=C6,ResName=DC,ResNum=17_X)                0   74.89100000   13.92000000   57.99300000 L
+ H(PDBName=H6,ResName=DC,ResNum=17_X)                0   75.52800000   13.20900000   57.47500000 L
+ C(PDBName=C5,ResName=DC,ResNum=17_X)                0   74.74700000   13.87600000   59.34000000 L
+ H(PDBName=H5,ResName=DC,ResNum=17_X)                0   75.27100000   13.13000000   59.91400000 L
+ C(PDBName=C4,ResName=DC,ResNum=17_X)                0   73.87400000   14.82300000   59.93900000 L
+ N(PDBName=N4,ResName=DC,ResNum=17_X)                0   73.70200000   14.81900000   61.22700000 L
+ H(PDBName=H41,ResName=DC,ResNum=17_X)               0   73.06500000   15.48700000   61.63700000 L
+ H(PDBName=H42,ResName=DC,ResNum=17_X)               0   74.15200000   14.11000000   61.77400000 L
+ N(PDBName=N3,ResName=DC,ResNum=17_X)                0   73.22100000   15.74300000   59.25800000 L
+ C(PDBName=C2,ResName=DC,ResNum=17_X)                0   73.37500000   15.77900000   57.91000000 L
+ O(PDBName=O2,ResName=DC,ResNum=17_X)                0   72.74900000   16.64100000   57.29000000 L
+ C(PDBName=C3P,ResName=DC,ResNum=17_X)               0   75.93500000   15.10000000   53.98800000 L
+ H(PDBName=H3P,ResName=DC,ResNum=17_X)               0   76.97400000   14.93400000   53.69700000 L
+ C(PDBName=C2P,ResName=DC,ResNum=17_X)               0   75.81400000   15.49600000   55.45000000 L
+ H(PDBName=H2P,ResName=DC,ResNum=17_X)               0   76.57900000   15.00500000   56.03600000 L
+ H(PDBName=H2PP,ResName=DC,ResNum=17_X)              0   75.89000000   16.56900000   55.58000000 L
+ O(PDBName=O3P,ResName=DC,ResNum=17_X)               0   75.30900000   16.07300000   53.15100000 L
+ P(PDBName=P,ResName=DC,ResNum=18_X)                 0   76.02200000   17.42900000   52.71000000 L
+ O(PDBName=OP1,ResName=DC,ResNum=18_X)               0   75.91300000   17.51300000   51.23200000 L
+ O(PDBName=OP2,ResName=DC,ResNum=18_X)               0   77.36900000   17.46400000   53.31600000 L
+ O(PDBName=O5P,ResName=DC,ResNum=18_X)               0   75.17900000   18.63200000   53.34700000 L
+ C(PDBName=C5P,ResName=DC,ResNum=18_X)               0   73.84000000   18.92700000   52.95000000 L
+ H(PDBName=H5P,ResName=DC,ResNum=18_X)               0   73.19300000   18.09000000   53.22900000 L
+ H(PDBName=H5PP,ResName=DC,ResNum=18_X)              0   73.79900000   19.03400000   51.86500000 L
+ C(PDBName=C4P,ResName=DC,ResNum=18_X)               0   73.26000000   20.21900000   53.56600000 L
+ H(PDBName=H4P,ResName=DC,ResNum=18_X)               0   72.28500000   20.38400000   53.10600000 L
+ O(PDBName=O4P,ResName=DC,ResNum=18_X)               0   73.08400000   20.08100000   54.97100000 L
+ C(PDBName=C1P,ResName=DC,ResNum=18_X)               0   73.93100000   20.98100000   55.67100000 L
+ H(PDBName=H1P,ResName=DC,ResNum=18_X)               0   73.33100000   21.82500000   56.02700000 L
+ N(PDBName=N1,ResName=DC,ResNum=18_X)                0   74.55500000   20.24800000   56.81400000 L
+ C(PDBName=C6,ResName=DC,ResNum=18_X)                0   75.44900000   19.22900000   56.60000000 L
+ H(PDBName=H6,ResName=DC,ResNum=18_X)                0   75.76900000   19.01300000   55.59100000 L
+ C(PDBName=C5,ResName=DC,ResNum=18_X)                0   75.91200000   18.48800000   57.63600000 L
+ H(PDBName=H5,ResName=DC,ResNum=18_X)                0   76.61600000   17.69500000   57.46300000 L
+ C(PDBName=C4,ResName=DC,ResNum=18_X)                0   75.42300000   18.80200000   58.92500000 L
+ N(PDBName=N4,ResName=DC,ResNum=18_X)                0   75.81300000   18.10800000   59.95000000 L
+ H(PDBName=H41,ResName=DC,ResNum=18_X)               0   75.44100000   18.37400000   60.85300000 L
+ H(PDBName=H42,ResName=DC,ResNum=18_X)               0   76.54000000   17.42600000   59.84300000 L
+ N(PDBName=N3,ResName=DC,ResNum=18_X)                0   74.58400000   19.78600000   59.17000000 L
+ C(PDBName=C2,ResName=DC,ResNum=18_X)                0   74.14000000   20.52600000   58.12400000 L
+ O(PDBName=O2,ResName=DC,ResNum=18_X)                0   73.36800000   21.45000000   58.38300000 L
+ C(PDBName=C3P,ResName=DC,ResNum=18_X)               0   74.12300000   21.47300000   53.33500000 L
+ H(PDBName=H3P,ResName=DC,ResNum=18_X)               0   74.77300000   21.30600000   52.47900000 L
+ C(PDBName=C2P,ResName=DC,ResNum=18_X)               0   74.92800000   21.51200000   54.63200000 L
+ H(PDBName=H2P,ResName=DC,ResNum=18_X)               0   75.79400000   20.86100000   54.53600000 L
+ H(PDBName=H2PP,ResName=DC,ResNum=18_X)              0   75.25200000   22.52400000   54.86700000 L
+ O(PDBName=O3P,ResName=DC,ResNum=18_X)               0   73.32300000   22.64300000   53.14600000 L
+ P(PDBName=P,ResName=DG,ResNum=19_X)                 0   73.91300000   23.96100000   52.43600000 L
+ O(PDBName=OP1,ResName=DG,ResNum=19_X)               0   72.78100000   24.85000000   52.10400000 L
+ O(PDBName=OP2,ResName=DG,ResNum=19_X)               0   74.81400000   23.55900000   51.33200000 L
+ O(PDBName=O5P,ResName=DG,ResNum=19_X)               0   74.77600000   24.69900000   53.56400000 L
+ C(PDBName=C5P,ResName=DG,ResNum=19_X)               0   74.11900000   25.37400000   54.63600000 L
+ H(PDBName=H5P,ResName=DG,ResNum=19_X)               0   73.23900000   24.80300000   54.94000000 L
+ H(PDBName=H5PP,ResName=DG,ResNum=19_X)              0   73.77600000   26.34500000   54.27800000 L
+ C(PDBName=C4P,ResName=DG,ResNum=19_X)               0   74.97200000   25.58800000   55.89400000 L
+ H(PDBName=H4P,ResName=DG,ResNum=19_X)               0   74.40700000   26.24300000   56.56000000 L
+ O(PDBName=O4P,ResName=DG,ResNum=19_X)               0   75.21200000   24.36300000   56.58100000 L
+ C(PDBName=C1P,ResName=DG,ResNum=19_X)               0   76.51400000   24.47100000   57.11900000 L
+ H(PDBName=H1P,ResName=DG,ResNum=19_X)               0   76.51200000   25.20600000   57.93100000 L
+ N(PDBName=N9,ResName=DG,ResNum=19_X)                0   77.02000000   23.20400000   57.68100000 L
+ C(PDBName=C8,ResName=DG,ResNum=19_X)                0   77.80100000   22.22600000   57.11400000 L
+ H(PDBName=H8,ResName=DG,ResNum=19_X)                0   78.09600000   22.24500000   56.07100000 L
+ N(PDBName=N7,ResName=DG,ResNum=19_X)                0   78.16300000   21.28400000   57.94800000 L
+ C(PDBName=C5,ResName=DG,ResNum=19_X)                0   77.55700000   21.66400000   59.15700000 L
+ C(PDBName=C6,ResName=DG,ResNum=19_X)                0   77.55200000   21.05900000   60.46300000 L
+ O(PDBName=O6,ResName=DG,ResNum=19_X)                0   78.07400000   20.01300000   60.84100000 L
+ N(PDBName=N1,ResName=DG,ResNum=19_X)                0   76.84800000   21.77400000   61.40600000 L
+ H(PDBName=H1,ResName=DG,ResNum=19_X)                0   76.83500000   21.40600000   62.34600000 L
+ C(PDBName=C2,ResName=DG,ResNum=19_X)                0   76.19000000   22.92400000   61.13900000 L
+ N(PDBName=N2,ResName=DG,ResNum=19_X)                0   75.59800000   23.51300000   62.14000000 L
+ H(PDBName=H21,ResName=DG,ResNum=19_X)               0   75.67700000   23.12500000   63.07600000 L
+ H(PDBName=H22,ResName=DG,ResNum=19_X)               0   75.10600000   24.37100000   61.95500000 L
+ N(PDBName=N3,ResName=DG,ResNum=19_X)                0   76.15100000   23.52300000   59.95300000 L
+ C(PDBName=C4,ResName=DG,ResNum=19_X)                0   76.85600000   22.83700000   58.99600000 L
+ C(PDBName=C3P,ResName=DG,ResNum=19_X)               0   76.35300000   26.22700000   55.66600000 L
+ H(PDBName=H3P,ResName=DG,ResNum=19_X)               0   76.48100000   26.61900000   54.65600000 L
+ C(PDBName=C2P,ResName=DG,ResNum=19_X)               0   77.28700000   25.05400000   55.94300000 L
+ H(PDBName=H2P,ResName=DG,ResNum=19_X)               0   77.30500000   24.36200000   55.10000000 L
+ H(PDBName=H2PP,ResName=DG,ResNum=19_X)              0   78.28500000   25.38800000   56.22600000 L
+ O(PDBName=O3P,ResName=DG,ResNum=19_X)               0   76.61500000   27.20600000   56.66100000 L
+ P(PDBName=P,ResName=DG,ResNum=20_X)                 0   76.22900000   28.72600000   56.46100000 L
+ O(PDBName=OP1,ResName=DG,ResNum=20_X)               0   74.90000000   28.79300000   55.81900000 L
+ O(PDBName=OP2,ResName=DG,ResNum=20_X)               0   77.39100000   29.37000000   55.81300000 L
+ O(PDBName=O5P,ResName=DG,ResNum=20_X)               0   76.13600000   29.27600000   57.95800000 L
+ C(PDBName=C5P,ResName=DG,ResNum=20_X)               0   74.91200000   29.28100000   58.68000000 L
+ H(PDBName=H5P,ResName=DG,ResNum=20_X)               0   74.42900000   28.30900000   58.57000000 L
+ H(PDBName=H5PP,ResName=DG,ResNum=20_X)              0   74.25600000   30.03400000   58.24200000 L
+ C(PDBName=C4P,ResName=DG,ResNum=20_X)               0   75.04800000   29.56600000   60.19000000 L
+ H(PDBName=H4P,ResName=DG,ResNum=20_X)               0   74.04400000   29.78500000   60.55500000 L
+ O(PDBName=O4P,ResName=DG,ResNum=20_X)               0   75.54800000   28.42700000   60.88300000 L
+ C(PDBName=C1P,ResName=DG,ResNum=20_X)               0   76.91000000   28.63700000   61.24100000 L
+ H(PDBName=H1P,ResName=DG,ResNum=20_X)               0   76.98900000   28.68500000   62.33000000 L
+ N(PDBName=N9,ResName=DG,ResNum=20_X)                0   77.72900000   27.49900000   60.75100000 L
+ C(PDBName=C8,ResName=DG,ResNum=20_X)                0   78.23000000   27.25800000   59.49400000 L
+ H(PDBName=H8,ResName=DG,ResNum=20_X)                0   78.06000000   27.93900000   58.67100000 L
+ N(PDBName=N7,ResName=DG,ResNum=20_X)                0   78.91500000   26.14600000   59.38000000 L
+ C(PDBName=C5,ResName=DG,ResNum=20_X)                0   78.84500000   25.59800000   60.67200000 L
+ C(PDBName=C6,ResName=DG,ResNum=20_X)                0   79.39000000   24.38400000   61.22800000 L
+ O(PDBName=O6,ResName=DG,ResNum=20_X)                0   80.05600000   23.50600000   60.67700000 L
+ N(PDBName=N1,ResName=DG,ResNum=20_X)                0   79.12600000   24.22600000   62.57400000 L
+ H(PDBName=H1,ResName=DG,ResNum=20_X)                0   79.52300000   23.42600000   63.04400000 L
+ C(PDBName=C2,ResName=DG,ResNum=20_X)                0   78.43000000   25.12000000   63.31400000 L
+ N(PDBName=N2,ResName=DG,ResNum=20_X)                0   78.36400000   24.90400000   64.59800000 L
+ H(PDBName=H21,ResName=DG,ResNum=20_X)               0   78.85500000   24.11400000   65.00600000 L
+ H(PDBName=H22,ResName=DG,ResNum=20_X)               0   78.01300000   25.64700000   65.17300000 L
+ N(PDBName=N3,ResName=DG,ResNum=20_X)                0   77.87800000   26.23600000   62.84700000 L
+ C(PDBName=C4,ResName=DG,ResNum=20_X)                0   78.12700000   26.42500000   61.51300000 L
+ C(PDBName=C3P,ResName=DG,ResNum=20_X)               0   75.97300000   30.72400000   60.59000000 L
+ H(PDBName=H3P,ResName=DG,ResNum=20_X)               0   75.98300000   31.49600000   59.81800000 L
+ C(PDBName=C2P,ResName=DG,ResNum=20_X)               0   77.31600000   30.00200000   60.68100000 L
+ H(PDBName=H2P,ResName=DG,ResNum=20_X)               0   77.75800000   29.91200000   59.69100000 L
+ H(PDBName=H2PP,ResName=DG,ResNum=20_X)              0   78.00800000   30.51400000   61.34900000 L
+ O(PDBName=O3P,ResName=DG,ResNum=20_X)               0   75.54300000   31.25500000   61.84500000 L
+ P(PDBName=P,ResName=DG,ResNum=21_X)                 0   76.24100000   32.52600000   62.53000000 L
+ O(PDBName=OP1,ResName=DG,ResNum=21_X)               0   75.23600000   33.17700000   63.40100000 L
+ O(PDBName=OP2,ResName=DG,ResNum=21_X)               0   76.90400000   33.34000000   61.48800000 L
+ O(PDBName=O5P,ResName=DG,ResNum=21_X)               0   77.37600000   31.87900000   63.43600000 L
+ C(PDBName=C5P,ResName=DG,ResNum=21_X)               0   77.06000000   31.14200000   64.60800000 L
+ H(PDBName=H5P,ResName=DG,ResNum=21_X)               0   76.27000000   30.43000000   64.38400000 L
+ H(PDBName=H5PP,ResName=DG,ResNum=21_X)              0   76.70300000   31.82500000   65.38000000 L
+ C(PDBName=C4P,ResName=DG,ResNum=21_X)               0   78.24900000   30.34200000   65.15300000 L
+ H(PDBName=H4P,ResName=DG,ResNum=21_X)               0   77.93200000   29.83500000   66.06400000 L
+ O(PDBName=O4P,ResName=DG,ResNum=21_X)               0   78.66900000   29.37200000   64.19200000 L
+ C(PDBName=C1P,ResName=DG,ResNum=21_X)               0   80.08100000   29.45800000   64.11400000 L
+ H(PDBName=H1P,ResName=DG,ResNum=21_X)               0   80.51500000   28.95600000   64.98100000 L
+ N(PDBName=N9,ResName=DG,ResNum=21_X)                0   80.64500000   28.82900000   62.90100000 L
+ C(PDBName=C8,ResName=DG,ResNum=21_X)                0   80.80100000   29.33900000   61.63100000 L
+ H(PDBName=H8,ResName=DG,ResNum=21_X)                0   80.44300000   30.32300000   61.35000000 L
+ N(PDBName=N7,ResName=DG,ResNum=21_X)                0   81.41500000   28.53500000   60.80000000 L
+ C(PDBName=C5,ResName=DG,ResNum=21_X)                0   81.70200000   27.41700000   61.59200000 L
+ C(PDBName=C6,ResName=DG,ResNum=21_X)                0   82.38100000   26.19500000   61.27700000 L
+ O(PDBName=O6,ResName=DG,ResNum=21_X)                0   82.84300000   25.84200000   60.19100000 L
+ N(PDBName=N1,ResName=DG,ResNum=21_X)                0   82.50000000   25.33300000   62.34600000 L
+ H(PDBName=H1,ResName=DG,ResNum=21_X)                0   82.94800000   24.44400000   62.18800000 L
+ C(PDBName=C2,ResName=DG,ResNum=21_X)                0   82.01100000   25.59500000   63.58000000 L
+ N(PDBName=N2,ResName=DG,ResNum=21_X)                0   82.14200000   24.65600000   64.47500000 L
+ H(PDBName=H21,ResName=DG,ResNum=21_X)               0   82.62700000   23.79400000   64.24100000 L
+ H(PDBName=H22,ResName=DG,ResNum=21_X)               0   81.69000000   24.77600000   65.36200000 L
+ N(PDBName=N3,ResName=DG,ResNum=21_X)                0   81.35100000   26.70100000   63.92100000 L
+ C(PDBName=C4,ResName=DG,ResNum=21_X)                0   81.23600000   27.58600000   62.87700000 L
+ C(PDBName=C3P,ResName=DG,ResNum=21_X)               0   79.47800000   31.20400000   65.48300000 L
+ H(PDBName=H3P,ResName=DG,ResNum=21_X)               0   79.23800000   32.26300000   65.59100000 L
+ C(PDBName=C2P,ResName=DG,ResNum=21_X)               0   80.34500000   30.95200000   64.25900000 L
+ H(PDBName=H2P,ResName=DG,ResNum=21_X)               0   79.97100000   31.50500000   63.39800000 L
+ H(PDBName=H2PP,ResName=DG,ResNum=21_X)              0   81.39000000   31.17500000   64.45900000 L
+ O(PDBName=O3P,ResName=DG,ResNum=21_X)               0   80.16100000   30.67100000   66.61000000 L
+ P(PDBName=P,ResName=DC,ResNum=22_X)                 0   80.34500000   31.47400000   67.96300000 L
+ O(PDBName=OP1,ResName=DC,ResNum=22_X)               0   79.04100000   31.58400000   68.66000000 L
+ O(PDBName=OP2,ResName=DC,ResNum=22_X)               0   81.12600000   32.69500000   67.69000000 L
+ O(PDBName=O5P,ResName=DC,ResNum=22_X)               0   81.27300000   30.46200000   68.78000000 L
+ C(PDBName=C5P,ResName=DC,ResNum=22_X)               0   80.73100000   29.27300000   69.34900000 L
+ H(PDBName=H5P,ResName=DC,ResNum=22_X)               0   79.92300000   28.90500000   68.71700000 L
+ H(PDBName=H5PP,ResName=DC,ResNum=22_X)              0   80.31700000   29.50200000   70.33100000 L
+ C(PDBName=C4P,ResName=DC,ResNum=22_X)               0   81.74600000   28.13000000   69.48600000 L
+ H(PDBName=H4P,ResName=DC,ResNum=22_X)               0   81.27200000   27.32400000   70.05100000 L
+ O(PDBName=O4P,ResName=DC,ResNum=22_X)               0   82.10700000   27.64600000   68.19300000 L
+ C(PDBName=C1P,ResName=DC,ResNum=22_X)               0   83.52000000   27.66500000   68.07500000 L
+ H(PDBName=H1P,ResName=DC,ResNum=22_X)               0   83.92400000   26.70700000   68.41900000 L
+ N(PDBName=N1,ResName=DC,ResNum=22_X)                0   83.87800000   27.93400000   66.65400000 L
+ C(PDBName=C6,ResName=DC,ResNum=22_X)                0   83.45300000   29.08700000   66.04200000 L
+ H(PDBName=H6,ResName=DC,ResNum=22_X)                0   82.89800000   29.82600000   66.61400000 L
+ C(PDBName=C5,ResName=DC,ResNum=22_X)                0   83.70800000   29.28200000   64.72700000 L
+ H(PDBName=H5,ResName=DC,ResNum=22_X)                0   83.38000000   30.18300000   64.24100000 L
+ C(PDBName=C4,ResName=DC,ResNum=22_X)                0   84.41500000   28.26700000   64.03100000 L
+ N(PDBName=N4,ResName=DC,ResNum=22_X)                0   84.62000000   28.40500000   62.75400000 L
+ H(PDBName=H41,ResName=DC,ResNum=22_X)               0   85.14200000   27.69300000   62.26500000 L
+ H(PDBName=H42,ResName=DC,ResNum=22_X)               0   84.38000000   29.28900000   62.33600000 L
+ N(PDBName=N3,ResName=DC,ResNum=22_X)                0   84.82500000   27.14400000   64.59000000 L
+ C(PDBName=C2,ResName=DC,ResNum=22_X)                0   84.57200000   26.96500000   65.91200000 L
+ O(PDBName=O2,ResName=DC,ResNum=22_X)                0   84.95800000   25.91300000   66.43300000 L
+ C(PDBName=C3P,ResName=DC,ResNum=22_X)               0   83.03700000   28.52800000   70.20900000 L
+ H(PDBName=H3P,ResName=DC,ResNum=22_X)               0   82.88400000   29.43600000   70.79400000 L
+ C(PDBName=C2P,ResName=DC,ResNum=22_X)               0   83.99200000   28.74700000   69.04600000 L
+ H(PDBName=H2P,ResName=DC,ResNum=22_X)               0   83.85600000   29.74600000   68.63300000 L
+ H(PDBName=H2PP,ResName=DC,ResNum=22_X)              0   85.02200000   28.58500000   69.35500000 L
+ O(PDBName=O3P,ResName=DC,ResNum=22_X)               0   83.46100000   27.43800000   71.01100000 L
+ P(PDBName=P,ResName=DC,ResNum=23_X)                 0   84.35400000   27.62000000   72.31300000 L
+ O(PDBName=OP1,ResName=DC,ResNum=23_X)               0   83.98700000   26.49600000   73.20300000 L
+ O(PDBName=OP2,ResName=DC,ResNum=23_X)               0   84.21800000   29.00600000   72.81900000 L
+ O(PDBName=O5P,ResName=DC,ResNum=23_X)               0   85.86900000   27.42800000   71.83100000 L
+ C(PDBName=C5P,ResName=DC,ResNum=23_X)               0   86.45400000   26.13300000   71.77600000 L
+ H(PDBName=H5P,ResName=DC,ResNum=23_X)               0   85.77400000   25.46000000   71.25100000 L
+ H(PDBName=H5PP,ResName=DC,ResNum=23_X)              0   86.58000000   25.75600000   72.79200000 L
+ C(PDBName=C4P,ResName=DC,ResNum=23_X)               0   87.81200000   26.07500000   71.06000000 L
+ H(PDBName=H4P,ResName=DC,ResNum=23_X)               0   88.16600000   25.05100000   71.13500000 L
+ O(PDBName=O4P,ResName=DC,ResNum=23_X)               0   87.63900000   26.39900000   69.68000000 L
+ C(PDBName=C1P,ResName=DC,ResNum=23_X)               0   88.65000000   27.30800000   69.28400000 L
+ H(PDBName=H1P,ResName=DC,ResNum=23_X)               0   89.54600000   26.75800000   68.97000000 L
+ N(PDBName=N1,ResName=DC,ResNum=23_X)                0   88.15100000   28.15000000   68.15200000 L
+ C(PDBName=C6,ResName=DC,ResNum=23_X)                0   87.39700000   29.28100000   68.36400000 L
+ H(PDBName=H6,ResName=DC,ResNum=23_X)                0   87.12900000   29.58700000   69.36700000 L
+ C(PDBName=C5,ResName=DC,ResNum=23_X)                0   86.96000000   30.01500000   67.31500000 L
+ H(PDBName=H5,ResName=DC,ResNum=23_X)                0   86.36800000   30.90000000   67.48400000 L
+ C(PDBName=C4,ResName=DC,ResNum=23_X)                0   87.30000000   29.56900000   66.01300000 L
+ N(PDBName=N4,ResName=DC,ResNum=23_X)                0   86.92000000   30.24500000   64.97700000 L
+ H(PDBName=H41,ResName=DC,ResNum=23_X)               0   87.19000000   29.91300000   64.06200000 L
+ H(PDBName=H42,ResName=DC,ResNum=23_X)               0   86.47800000   31.14700000   65.10000000 L
+ N(PDBName=N3,ResName=DC,ResNum=23_X)                0   87.97800000   28.46600000   65.77800000 L
+ C(PDBName=C2,ResName=DC,ResNum=23_X)                0   88.40000000   27.73200000   66.83300000 L
+ O(PDBName=O2,ResName=DC,ResNum=23_X)                0   89.00000000   26.68700000   66.57600000 L
+ C(PDBName=C3P,ResName=DC,ResNum=23_X)               0   88.93600000   26.95300000   71.62400000 L
+ H(PDBName=H3P,ResName=DC,ResNum=23_X)               0   88.65700000   27.36200000   72.59500000 L
+ C(PDBName=C2P,ResName=DC,ResNum=23_X)               0   88.98900000   28.06000000   70.57500000 L
+ H(PDBName=H2P,ResName=DC,ResNum=23_X)               0   88.22600000   28.79000000   70.83400000 L
+ H(PDBName=H2PP,ResName=DC,ResNum=23_X)              0   89.96300000   28.54200000   70.51800000 L
+ O(PDBName=O3P,ResName=DC,ResNum=23_X)               0   90.11500000   26.15000000   71.73000000 L
+ P(PDBName=P,ResName=DCM,ResNum=24_X)                0   91.58100000   26.73700000   71.96600000 L
+ O(PDBName=OP1,ResName=DCM,ResNum=24_X)              0   92.44000000   25.67100000   72.53600000 L
+ O(PDBName=OP2,ResName=DCM,ResNum=24_X)              0   91.48700000   28.03600000   72.66900000 L
+ O(PDBName=O5P,ResName=DCM,ResNum=24_X)              0   92.05200000   26.97500000   70.46800000 L
+ C(PDBName=C5P,ResName=DCM,ResNum=24_X)              0   92.20600000   25.86800000   69.58500000 L
+ H(PDBName=H5P,ResName=DCM,ResNum=24_X)              0   91.25000000   25.35300000   69.48200000 L
+ H(PDBName=H5PP,ResName=DCM,ResNum=24_X)             0   92.92400000   25.16800000   70.01300000 L
+ C(PDBName=C4P,ResName=DCM,ResNum=24_X)              0   92.69400000   26.24200000   68.18300000 L
+ H(PDBName=H4P,ResName=DCM,ResNum=24_X)              0   92.75800000   25.33000000   67.59100000 L
+ O(PDBName=O4P,ResName=DCM,ResNum=24_X)              0   91.78000000   27.13600000   67.55500000 L
+ C(PDBName=C1P,ResName=DCM,ResNum=24_X)              0   92.56900000   28.02600000   66.79100000 L
+ H(PDBName=H1P,ResName=DCM,ResNum=24_X)              0   92.99200000   27.46400000   65.95300000 L
+ N(PDBName=N1,ResName=DCM,ResNum=24_X)               0   91.76100000   29.15900000   66.23900000 L
+ C(PDBName=C6,ResName=DCM,ResNum=24_X)               0   91.14900000   30.08700000   67.04600000 L
+ H(PDBName=H6,ResName=DCM,ResNum=24_X)               0   91.23100000   30.00200000   68.11900000 L
+ C(PDBName=C5,ResName=DCM,ResNum=24_X)               0   90.43400000   31.10300000   66.50400000 L
+ H(PDBName=H5,ResName=DCM,ResNum=24_X)               0   89.96200000   31.83400000   67.14000000 L
+ C(PDBName=C4,ResName=DCM,ResNum=24_X)               0   90.33500000   31.15700000   65.09000000 L
+ N(PDBName=N4,ResName=DCM,ResNum=24_X)               0   89.66000000   32.11900000   64.53100000 L
+ H(PDBName=H41,ResName=DCM,ResNum=24_X)              0   89.51500000   32.10500000   63.53100000 L
+ H(PDBName=H42,ResName=DCM,ResNum=24_X)              0   89.20900000   32.80300000   65.12600000 L
+ N(PDBName=N3,ResName=DCM,ResNum=24_X)               0   90.87800000   30.25900000   64.29100000 L
+ C(PDBName=C2,ResName=DCM,ResNum=24_X)               0   91.58500000   29.24400000   64.84800000 L
+ O(PDBName=O2,ResName=DCM,ResNum=24_X)               0   92.06400000   28.40200000   64.08100000 L
+ C(PDBName=C3P,ResName=DCM,ResNum=24_X)              0   94.07700000   26.92000000   68.16500000 L
+ H(PDBName=H3P,ResName=DCM,ResNum=24_X)              0   94.53500000   26.90300000   69.15300000 L
+ C(PDBName=C2P,ResName=DCM,ResNum=24_X)              0   93.74100000   28.34600000   67.73400000 L
+ H(PDBName=H2PP,ResName=DCM,ResNum=24_X)             0   94.57400000   28.79600000   67.19600000 L
+ O(PDBName=O3P,ResName=DCM,ResNum=24_X)              0   94.94000000   26.31200000   67.21300000 L
+ H(PDBName=HO3P,ResName=DCM,ResNum=24_X)             0   95.44300000   26.99500000   66.73900000 L
+ C(PDBName=C,ResName=CNT,ResNum=25_X)                0   86.39100000   43.25800000   44.39600000 L
+ C(PDBName=C1,ResName=CNT,ResNum=25_X)               0   86.28900000   40.50100000   43.48400000 L
+ C(PDBName=C2,ResName=CNT,ResNum=25_X)               0   86.89000000   39.36900000   42.91000000 L
+ C(PDBName=C3,ResName=CNT,ResNum=25_X)               0   89.20500000   38.06700000   41.73700000 L
+ C(PDBName=C4,ResName=CNT,ResNum=25_X)               0   90.54700000   38.12500000   41.33000000 L
+ C(PDBName=C5,ResName=CNT,ResNum=25_X)               0   93.02100000   39.62100000   41.04700000 L
+ C(PDBName=C6,ResName=CNT,ResNum=25_X)               0   93.75500000   40.80500000   41.21300000 L
+ C(PDBName=C7,ResName=CNT,ResNum=25_X)               0   93.89600000   43.56500000   42.09400000 L
+ C(PDBName=C8,ResName=CNT,ResNum=25_X)               0   93.27900000   44.68900000   42.66600000 L
+ C(PDBName=C9,ResName=CNT,ResNum=25_X)               0   90.94900000   45.96400000   43.83500000 L
+ C(PDBName=C10,ResName=CNT,ResNum=25_X)              0   89.60900000   45.91100000   44.24700000 L
+ C(PDBName=C11,ResName=CNT,ResNum=25_X)              0   87.12100000   44.44500000   44.55900000 L
+ C(PDBName=C12,ResName=CNT,ResNum=25_X)              0   86.60100000   42.17700000   45.27600000 L
+ C(PDBName=C13,ResName=CNT,ResNum=25_X)              0   86.54300000   40.82600000   44.83300000 L
+ C(PDBName=C14,ResName=CNT,ResNum=25_X)              0   87.75600000   38.56600000   43.68200000 L
+ C(PDBName=C15,ResName=CNT,ResNum=25_X)              0   88.89400000   37.93300000   43.10800000 L
+ C(PDBName=C16,ResName=CNT,ResNum=25_X)              0   91.57600000   38.04700000   42.29300000 L
+ C(PDBName=C17,ResName=CNT,ResNum=25_X)              0   92.78900000   38.77700000   42.15400000 L
+ C(PDBName=C18,ResName=CNT,ResNum=25_X)              0   94.25200000   41.14800000   42.48900000 L
+ C(PDBName=C19,ResName=CNT,ResNum=25_X)              0   94.31800000   42.50100000   42.92200000 L
+ C(PDBName=C20,ResName=CNT,ResNum=25_X)              0   93.09100000   44.75000000   44.06300000 L
+ C(PDBName=C21,ResName=CNT,ResNum=25_X)              0   91.95200000   45.37900000   44.63700000 L
+ C(PDBName=C22,ResName=CNT,ResNum=25_X)              0   89.27200000   45.27500000   45.46000000 L
+ C(PDBName=C23,ResName=CNT,ResNum=25_X)              0   88.05600000   44.55200000   45.60900000 L
+ C(PDBName=C24,ResName=CNT,ResNum=25_X)              0   87.20600000   42.45100000   46.52200000 L
+ C(PDBName=C25,ResName=CNT,ResNum=25_X)              0   87.07400000   39.81700000   45.66900000 L
+ C(PDBName=C26,ResName=CNT,ResNum=25_X)              0   87.68600000   38.67900000   45.08900000 L
+ C(PDBName=C27,ResName=CNT,ResNum=25_X)              0   89.90300000   37.45200000   43.97200000 L
+ C(PDBName=C28,ResName=CNT,ResNum=25_X)              0   91.25700000   37.50900000   43.56100000 L
+ C(PDBName=C29,ResName=CNT,ResNum=25_X)              0   93.61900000   38.92700000   43.28900000 L
+ C(PDBName=C30,ResName=CNT,ResNum=25_X)              0   94.35500000   40.12500000   43.45900000 L
+ C(PDBName=C31,ResName=CNT,ResNum=25_X)              0   94.48600000   42.75900000   44.30100000 L
+ C(PDBName=C32,ResName=CNT,ResNum=25_X)              0   93.86900000   43.89600000   44.87700000 L
+ C(PDBName=C33,ResName=CNT,ResNum=25_X)              0   91.65200000   45.12000000   45.99300000 L
+ C(PDBName=C34,ResName=CNT,ResNum=25_X)              0   90.30000000   45.06800000   46.40800000 L
+ C(PDBName=C35,ResName=CNT,ResNum=25_X)              0   87.94000000   43.65000000   46.69000000 L
+ C(PDBName=C36,ResName=CNT,ResNum=25_X)              0   87.36500000   41.42100000   47.46800000 L
+ C(PDBName=C37,ResName=CNT,ResNum=25_X)              0   87.29500000   40.08100000   47.03600000 L
+ C(PDBName=C38,ResName=CNT,ResNum=25_X)              0   88.49100000   37.85500000   45.90300000 L
+ C(PDBName=C39,ResName=CNT,ResNum=25_X)              0   89.62000000   37.23200000   45.33500000 L
+ C(PDBName=C40,ResName=CNT,ResNum=25_X)              0   92.26600000   37.34000000   44.53100000 L
+ C(PDBName=C41,ResName=CNT,ResNum=25_X)              0   93.46700000   38.06400000   44.39400000 L
+ C(PDBName=C42,ResName=CNT,ResNum=25_X)              0   94.90300000   40.40600000   44.72700000 L
+ C(PDBName=C43,ResName=CNT,ResNum=25_X)              0   94.97000000   41.74800000   45.15700000 L
+ C(PDBName=C44,ResName=CNT,ResNum=25_X)              0   93.77100000   43.97500000   46.28200000 L
+ C(PDBName=C45,ResName=CNT,ResNum=25_X)              0   92.64300000   44.60000000   46.85100000 L
+ C(PDBName=C46,ResName=CNT,ResNum=25_X)              0   90.00000000   44.49100000   47.65900000 L
+ C(PDBName=C47,ResName=CNT,ResNum=25_X)              0   88.80100000   43.76400000   47.79900000 L
+ C(PDBName=C48,ResName=CNT,ResNum=25_X)              0   87.92600000   41.70100000   48.72900000 L
+ C(PDBName=C49,ResName=CNT,ResNum=25_X)              0   87.78800000   39.06800000   47.88300000 L
+ C(PDBName=C50,ResName=CNT,ResNum=25_X)              0   88.39400000   37.93400000   47.30700000 L
+ C(PDBName=C51,ResName=CNT,ResNum=25_X)              0   90.61200000   36.71100000   46.19100000 L
+ C(PDBName=C52,ResName=CNT,ResNum=25_X)              0   91.96000000   36.76300000   45.78100000 L
+ C(PDBName=C53,ResName=CNT,ResNum=25_X)              0   94.31700000   38.18500000   45.51200000 L
+ C(PDBName=C54,ResName=CNT,ResNum=25_X)              0   95.04700000   39.38000000   45.68400000 L
+ C(PDBName=C55,ResName=CNT,ResNum=25_X)              0   95.18000000   42.01400000   46.52500000 L
+ C(PDBName=C56,ResName=CNT,ResNum=25_X)              0   94.57400000   43.15100000   47.09900000 L
+ C(PDBName=C57,ResName=CNT,ResNum=25_X)              0   92.36000000   44.38100000   48.21500000 L
+ C(PDBName=C58,ResName=CNT,ResNum=25_X)              0   91.01200000   44.32200000   48.62600000 L
+ C(PDBName=C59,ResName=CNT,ResNum=25_X)              0   88.65700000   42.89500000   48.89800000 L
+ C(PDBName=C60,ResName=CNT,ResNum=25_X)              0   88.07300000   40.67400000   49.68100000 L
+ C(PDBName=C61,ResName=CNT,ResNum=25_X)              0   88.00500000   39.33200000   49.25000000 L
+ C(PDBName=C62,ResName=CNT,ResNum=25_X)              0   89.19400000   37.10600000   48.12100000 L
+ C(PDBName=C63,ResName=CNT,ResNum=25_X)              0   90.32600000   36.48600000   47.55300000 L
+ C(PDBName=C64,ResName=CNT,ResNum=25_X)              0   92.97100000   36.58600000   46.74800000 L
+ C(PDBName=C65,ResName=CNT,ResNum=25_X)              0   94.17200000   37.31300000   46.61100000 L
+ C(PDBName=C66,ResName=CNT,ResNum=25_X)              0   95.60000000   39.66100000   46.94900000 L
+ C(PDBName=C67,ResName=CNT,ResNum=25_X)              0   95.67100000   41.00400000   47.37800000 L
+ C(PDBName=C68,ResName=CNT,ResNum=25_X)              0   94.48200000   43.23900000   48.50400000 L
+ C(PDBName=C69,ResName=CNT,ResNum=25_X)              0   93.35400000   43.86600000   49.07300000 L
+ C(PDBName=C70,ResName=CNT,ResNum=25_X)              0   90.70700000   43.74800000   49.87700000 L
+ C(PDBName=C71,ResName=CNT,ResNum=25_X)              0   89.50700000   43.01900000   50.01500000 L
+ C(PDBName=C72,ResName=CNT,ResNum=25_X)              0   88.62800000   40.95400000   50.94400000 L
+ C(PDBName=C73,ResName=CNT,ResNum=25_X)              0   88.48700000   38.31800000   50.10000000 L
+ C(PDBName=C74,ResName=CNT,ResNum=25_X)              0   89.09300000   37.18200000   49.52500000 L
+ C(PDBName=C75,ResName=CNT,ResNum=25_X)              0   91.31500000   35.96100000   48.41000000 L
+ C(PDBName=C76,ResName=CNT,ResNum=25_X)              0   92.66400000   36.01100000   47.99900000 L
+ C(PDBName=C77,ResName=CNT,ResNum=25_X)              0   95.02000000   37.43600000   47.73100000 L
+ C(PDBName=C78,ResName=CNT,ResNum=25_X)              0   95.74200000   38.63500000   47.90500000 L
+ C(PDBName=C79,ResName=CNT,ResNum=25_X)              0   95.88500000   41.27200000   48.74600000 L
+ C(PDBName=C80,ResName=CNT,ResNum=25_X)              0   95.28200000   42.41100000   49.32000000 L
+ C(PDBName=C81,ResName=CNT,ResNum=25_X)              0   93.06700000   43.64100000   50.43600000 L
+ C(PDBName=C82,ResName=CNT,ResNum=25_X)              0   91.71900000   43.57800000   50.84400000 L
+ C(PDBName=C83,ResName=CNT,ResNum=25_X)              0   89.36000000   42.14900000   51.11400000 L
+ C(PDBName=C84,ResName=CNT,ResNum=25_X)              0   88.77200000   39.92600000   51.89700000 L
+ C(PDBName=C85,ResName=CNT,ResNum=25_X)              0   88.69700000   38.58300000   51.46800000 L
+ C(PDBName=C86,ResName=CNT,ResNum=25_X)              0   89.89100000   36.35300000   50.34000000 L
+ C(PDBName=C87,ResName=CNT,ResNum=25_X)              0   91.02400000   35.73100000   49.77200000 L
+ C(PDBName=C88,ResName=CNT,ResNum=25_X)              0   93.67400000   35.83800000   48.96800000 L
+ C(PDBName=C89,ResName=CNT,ResNum=25_X)              0   94.87600000   36.56400000   48.83000000 L
+ C(PDBName=C90,ResName=CNT,ResNum=25_X)              0   96.29600000   38.91700000   49.17000000 L
+ C(PDBName=C91,ResName=CNT,ResNum=25_X)              0   96.37100000   40.25800000   49.59800000 L
+ C(PDBName=C92,ResName=CNT,ResNum=25_X)              0   95.18600000   42.49200000   50.72500000 L
+ C(PDBName=C93,ResName=CNT,ResNum=25_X)              0   94.05900000   43.12100000   51.29400000 L
+ C(PDBName=C94,ResName=CNT,ResNum=25_X)              0   91.41200000   42.99700000   52.09200000 L
+ C(PDBName=C95,ResName=CNT,ResNum=25_X)              0   90.21100000   42.26900000   52.22900000 L
+ C(PDBName=C96,ResName=CNT,ResNum=25_X)              0   89.32900000   40.20700000   53.16000000 L
+ C(PDBName=C97,ResName=CNT,ResNum=25_X)              0   89.18200000   37.57000000   52.31900000 L
+ C(PDBName=C98,ResName=CNT,ResNum=25_X)              0   89.79100000   36.43300000   51.74500000 L
+ C(PDBName=C99,ResName=CNT,ResNum=25_X)              0   92.01500000   35.21100000   50.62900000 L
+ C(PDBName=C100,ResName=CNT,ResNum=25_X)             0   93.36600000   35.26700000   50.22000000 L
+ C(PDBName=C101,ResName=CNT,ResNum=25_X)             0   95.72700000   36.68900000   49.94800000 L
+ C(PDBName=C102,ResName=CNT,ResNum=25_X)             0   96.45100000   37.88800000   50.12100000 L
+ C(PDBName=C103,ResName=CNT,ResNum=25_X)             0   96.58600000   40.52400000   50.96600000 L
+ C(PDBName=C104,ResName=CNT,ResNum=25_X)             0   95.98300000   41.66300000   51.54100000 L
+ C(PDBName=C105,ResName=CNT,ResNum=25_X)             0   93.77000000   42.89200000   52.65600000 L
+ C(PDBName=C106,ResName=CNT,ResNum=25_X)             0   92.42100000   42.82800000   53.06200000 L
+ C(PDBName=C107,ResName=CNT,ResNum=25_X)             0   90.06300000   41.40100000   53.32800000 L
+ C(PDBName=C108,ResName=CNT,ResNum=25_X)             0   89.46700000   39.18200000   54.11600000 L
+ C(PDBName=C109,ResName=CNT,ResNum=25_X)             0   89.39300000   37.83800000   53.68800000 L
+ C(PDBName=C110,ResName=CNT,ResNum=25_X)             0   90.59100000   35.60700000   52.56000000 L
+ C(PDBName=C111,ResName=CNT,ResNum=25_X)             0   91.72500000   34.98600000   51.99200000 L
+ C(PDBName=C112,ResName=CNT,ResNum=25_X)             0   94.37600000   35.10000000   51.18900000 L
+ C(PDBName=C113,ResName=CNT,ResNum=25_X)             0   95.58200000   35.82200000   51.04900000 L
+ C(PDBName=C114,ResName=CNT,ResNum=25_X)             0   97.01200000   38.17000000   51.38400000 L
+ C(PDBName=C115,ResName=CNT,ResNum=25_X)             0   97.07800000   39.51200000   51.81600000 L
+ C(PDBName=C116,ResName=CNT,ResNum=25_X)             0   95.88900000   41.74500000   52.94500000 L
+ C(PDBName=C117,ResName=CNT,ResNum=25_X)             0   94.76000000   42.37200000   53.51500000 L
+ C(PDBName=C118,ResName=CNT,ResNum=25_X)             0   92.11100000   42.25400000   54.31200000 L
+ C(PDBName=C119,ResName=CNT,ResNum=25_X)             0   90.90900000   41.52600000   54.44800000 L
+ C(PDBName=C120,ResName=CNT,ResNum=25_X)             0   90.02200000   39.46600000   55.38000000 L
+ C(PDBName=C121,ResName=CNT,ResNum=25_X)             0   89.88100000   36.82700000   54.53900000 L
+ C(PDBName=C122,ResName=CNT,ResNum=25_X)             0   90.49300000   35.69100000   53.96500000 L
+ C(PDBName=C123,ResName=CNT,ResNum=25_X)             0   92.71800000   34.47200000   52.85000000 L
+ C(PDBName=C124,ResName=CNT,ResNum=25_X)             0   94.06800000   34.53400000   52.44300000 L
+ C(PDBName=C125,ResName=CNT,ResNum=25_X)             0   96.43500000   35.94700000   52.16500000 L
+ C(PDBName=C126,ResName=CNT,ResNum=25_X)             0   97.16500000   37.14200000   52.33700000 L
+ C(PDBName=C127,ResName=CNT,ResNum=25_X)             0   97.29100000   39.77700000   53.18500000 L
+ C(PDBName=C128,ResName=CNT,ResNum=25_X)             0   96.68600000   40.91500000   53.76000000 L
+ C(PDBName=C129,ResName=CNT,ResNum=25_X)             0   94.46900000   42.14400000   54.87600000 L
+ C(PDBName=C130,ResName=CNT,ResNum=25_X)             0   93.11900000   42.08600000   55.28300000 L
+ C(PDBName=C131,ResName=CNT,ResNum=25_X)             0   90.75600000   40.66000000   55.54900000 L
+ C(PDBName=C132,ResName=CNT,ResNum=25_X)             0   90.16100000   38.44000000   56.33700000 L
+ C(PDBName=C133,ResName=CNT,ResNum=25_X)             0   90.09000000   37.09600000   55.90800000 L
+ C(PDBName=C134,ResName=CNT,ResNum=25_X)             0   91.29700000   34.87000000   54.78000000 L
+ C(PDBName=C135,ResName=CNT,ResNum=25_X)             0   92.43100000   34.25000000   54.21200000 L
+ C(PDBName=C136,ResName=CNT,ResNum=25_X)             0   95.07900000   34.36900000   53.41100000 L
+ C(PDBName=C137,ResName=CNT,ResNum=25_X)             0   96.28700000   35.08300000   53.26900000 L
+ C(PDBName=C138,ResName=CNT,ResNum=25_X)             0   97.72300000   37.42400000   53.60100000 L
+ C(PDBName=C139,ResName=CNT,ResNum=25_X)             0   97.78500000   38.76600000   54.03500000 L
+ C(PDBName=C140,ResName=CNT,ResNum=25_X)             0   96.58900000   40.99500000   55.16500000 L
+ C(PDBName=C141,ResName=CNT,ResNum=25_X)             0   95.45900000   41.62100000   55.73300000 L
+ C(PDBName=C142,ResName=CNT,ResNum=25_X)             0   92.80800000   41.51000000   56.53200000 L
+ C(PDBName=C143,ResName=CNT,ResNum=25_X)             0   91.60400000   40.78400000   56.66900000 L
+ C(PDBName=C144,ResName=CNT,ResNum=25_X)             0   90.71700000   38.72300000   57.60200000 L
+ C(PDBName=C145,ResName=CNT,ResNum=25_X)             0   90.58300000   36.08700000   56.75900000 L
+ C(PDBName=C146,ResName=CNT,ResNum=25_X)             0   91.20300000   34.95700000   56.18500000 L
+ C(PDBName=C147,ResName=CNT,ResNum=25_X)             0   93.42600000   33.73600000   55.06900000 L
+ C(PDBName=C148,ResName=CNT,ResNum=25_X)             0   94.77400000   33.79300000   54.66000000 L
+ C(PDBName=C149,ResName=CNT,ResNum=25_X)             0   97.14100000   35.20400000   54.38400000 L
+ C(PDBName=C150,ResName=CNT,ResNum=25_X)             0   97.87400000   36.39700000   54.55500000 L
+ C(PDBName=C151,ResName=CNT,ResNum=25_X)             0   98.00100000   39.03200000   55.40300000 L
+ C(PDBName=C152,ResName=CNT,ResNum=25_X)             0   97.38900000   40.16600000   55.97900000 L
+ C(PDBName=C153,ResName=CNT,ResNum=25_X)             0   95.16800000   41.39400000   57.09400000 L
+ C(PDBName=C154,ResName=CNT,ResNum=25_X)             0   93.81700000   41.33900000   57.50200000 L
+ C(PDBName=C155,ResName=CNT,ResNum=25_X)             0   91.45200000   39.91700000   57.77000000 L
+ C(PDBName=C156,ResName=CNT,ResNum=25_X)             0   90.85800000   37.69700000   58.55800000 L
+ C(PDBName=C157,ResName=CNT,ResNum=25_X)             0   90.79100000   36.35400000   58.12800000 L
+ C(PDBName=C158,ResName=CNT,ResNum=25_X)             0   92.01400000   34.14200000   56.99900000 L
+ C(PDBName=C159,ResName=CNT,ResNum=25_X)             0   93.14200000   33.51600000   56.43100000 L
+ C(PDBName=C160,ResName=CNT,ResNum=25_X)             0   95.78600000   33.61800000   55.62400000 L
+ C(PDBName=C161,ResName=CNT,ResNum=25_X)             0   96.99200000   34.33700000   55.48500000 L
+ C(PDBName=C162,ResName=CNT,ResNum=25_X)             0   98.43300000   36.67800000   55.81900000 L
+ C(PDBName=C163,ResName=CNT,ResNum=25_X)             0   98.49700000   38.02000000   56.25300000 L
+ C(PDBName=C164,ResName=CNT,ResNum=25_X)             0   97.29000000   40.24500000   57.38400000 L
+ C(PDBName=C165,ResName=CNT,ResNum=25_X)             0   96.15800000   40.87100000   57.95200000 L
+ C(PDBName=C166,ResName=CNT,ResNum=25_X)             0   93.50700000   40.76400000   58.75200000 L
+ C(PDBName=C167,ResName=CNT,ResNum=25_X)             0   92.30300000   40.03900000   58.88900000 L
+ C(PDBName=C168,ResName=CNT,ResNum=25_X)             0   91.41700000   37.97700000   59.82200000 L
+ C(PDBName=C169,ResName=CNT,ResNum=25_X)             0   91.28800000   35.34500000   58.97800000 L
+ C(PDBName=C170,ResName=CNT,ResNum=25_X)             0   91.91700000   34.22200000   58.40200000 L
+ C(PDBName=C171,ResName=CNT,ResNum=25_X)             0   94.13100000   32.99100000   57.28400000 L
+ C(PDBName=C172,ResName=CNT,ResNum=25_X)             0   95.47900000   33.04300000   56.87300000 L
+ C(PDBName=C173,ResName=CNT,ResNum=25_X)             0   97.84700000   34.45500000   56.60000000 L
+ C(PDBName=C174,ResName=CNT,ResNum=25_X)             0   98.58200000   35.64800000   56.77200000 L
+ C(PDBName=C175,ResName=CNT,ResNum=25_X)             0   98.70500000   38.28300000   57.62300000 L
+ C(PDBName=C176,ResName=CNT,ResNum=25_X)             0   98.08900000   39.41600000   58.19900000 L
+ C(PDBName=C177,ResName=CNT,ResNum=25_X)             0   95.86700000   40.64700000   59.31200000 L
+ C(PDBName=C178,ResName=CNT,ResNum=25_X)             0   94.51600000   40.59300000   59.72100000 L
+ C(PDBName=C179,ResName=CNT,ResNum=25_X)             0   92.15400000   39.17000000   59.98900000 L
+ C(PDBName=C180,ResName=CNT,ResNum=25_X)             0   91.56000000   36.94900000   60.77700000 L
+ C(PDBName=C181,ResName=CNT,ResNum=25_X)             0   91.49400000   35.60700000   60.34700000 L
+ C(PDBName=C182,ResName=CNT,ResNum=25_X)             0   92.71800000   33.39600000   59.21500000 L
+ C(PDBName=C183,ResName=CNT,ResNum=25_X)             0   93.84300000   32.76700000   58.64500000 L
+ C(PDBName=C184,ResName=CNT,ResNum=25_X)             0   96.49000000   32.86800000   57.83800000 L
+ C(PDBName=C185,ResName=CNT,ResNum=25_X)             0   97.69800000   33.58500000   57.69900000 L
+ C(PDBName=C186,ResName=CNT,ResNum=25_X)             0   99.13700000   35.92700000   58.03900000 L
+ C(PDBName=C187,ResName=CNT,ResNum=25_X)             0   99.19500000   37.26800000   58.47400000 L
+ C(PDBName=C188,ResName=CNT,ResNum=25_X)             0   97.98600000   39.49500000   59.60300000 L
+ C(PDBName=C189,ResName=CNT,ResNum=25_X)             0   96.85600000   40.12400000   60.17000000 L
+ C(PDBName=C190,ResName=CNT,ResNum=25_X)             0   94.20600000   40.01900000   60.97100000 L
+ C(PDBName=C191,ResName=CNT,ResNum=25_X)             0   93.00300000   39.29200000   61.10800000 L
+ C(PDBName=C192,ResName=CNT,ResNum=25_X)             0   92.12000000   37.23000000   62.04000000 L
+ C(PDBName=C193,ResName=CNT,ResNum=25_X)             0   91.99100000   34.59500000   61.19400000 L
+ C(PDBName=C194,ResName=CNT,ResNum=25_X)             0   92.61500000   33.46900000   60.61800000 L
+ C(PDBName=C195,ResName=CNT,ResNum=25_X)             0   94.83200000   32.24300000   59.50000000 L
+ C(PDBName=C196,ResName=CNT,ResNum=25_X)             0   96.18000000   32.29400000   59.08800000 L
+ C(PDBName=C197,ResName=CNT,ResNum=25_X)             0   98.54900000   33.70300000   58.81500000 L
+ C(PDBName=C198,ResName=CNT,ResNum=25_X)             0   99.28200000   34.89600000   58.99100000 L
+ C(PDBName=C199,ResName=CNT,ResNum=25_X)             0   99.39100000   37.52700000   59.84700000 L
+ C(PDBName=C200,ResName=CNT,ResNum=25_X)             0   98.77900000   38.66200000   60.42000000 L
+ C(PDBName=C201,ResName=CNT,ResNum=25_X)             0   96.56400000   39.90100000   61.53100000 L
+ C(PDBName=C202,ResName=CNT,ResNum=25_X)             0   95.21500000   39.84700000   61.94000000 L
+ C(PDBName=C203,ResName=CNT,ResNum=25_X)             0   92.85400000   38.42300000   62.20800000 L
+ C(PDBName=C204,ResName=CNT,ResNum=25_X)             0   92.26800000   36.20000000   62.99200000 L
+ C(PDBName=C205,ResName=CNT,ResNum=25_X)             0   92.20200000   34.85800000   62.56300000 L
+ C(PDBName=C206,ResName=CNT,ResNum=25_X)             0   93.41600000   32.64100000   61.43100000 L
+ C(PDBName=C207,ResName=CNT,ResNum=25_X)             0   94.54500000   32.01700000   60.86200000 L
+ C(PDBName=C208,ResName=CNT,ResNum=25_X)             0   97.19000000   32.12000000   60.05300000 L
+ C(PDBName=C209,ResName=CNT,ResNum=25_X)             0   98.39800000   32.83400000   59.91400000 L
+ C(PDBName=C210,ResName=CNT,ResNum=25_X)             0   99.82600000   35.17200000   60.26400000 L
+ C(PDBName=C211,ResName=CNT,ResNum=25_X)             0   99.87300000   36.51000000   60.70100000 L
+ C(PDBName=C212,ResName=CNT,ResNum=25_X)             0   98.67700000   38.74400000   61.82300000 L
+ C(PDBName=C213,ResName=CNT,ResNum=25_X)             0   97.55200000   39.37800000   62.39000000 L
+ C(PDBName=C214,ResName=CNT,ResNum=25_X)             0   94.90600000   39.27100000   63.19000000 L
+ C(PDBName=C215,ResName=CNT,ResNum=25_X)             0   93.70500000   38.54400000   63.32600000 L
+ C(PDBName=C216,ResName=CNT,ResNum=25_X)             0   92.82800000   36.48000000   64.25500000 L
+ C(PDBName=C217,ResName=CNT,ResNum=25_X)             0   92.69900000   33.84600000   63.41000000 L
+ C(PDBName=C218,ResName=CNT,ResNum=25_X)             0   93.31800000   32.71600000   62.83500000 L
+ C(PDBName=C219,ResName=CNT,ResNum=25_X)             0   95.53700000   31.49700000   61.71700000 L
+ C(PDBName=C220,ResName=CNT,ResNum=25_X)             0   96.88300000   31.55100000   61.30300000 L
+ C(PDBName=C221,ResName=CNT,ResNum=25_X)             0   99.25000000   32.94600000   61.03000000 L
+ C(PDBName=C222,ResName=CNT,ResNum=25_X)             0   99.97300000   34.13900000   61.21500000 L
+ C(PDBName=C223,ResName=CNT,ResNum=25_X)             0  100.07000000   36.77000000   62.07300000 L
+ C(PDBName=C224,ResName=CNT,ResNum=25_X)             0   99.46800000   37.91200000   62.64100000 L
+ C(PDBName=C225,ResName=CNT,ResNum=25_X)             0   97.26200000   39.15900000   63.75100000 L
+ C(PDBName=C226,ResName=CNT,ResNum=25_X)             0   95.91400000   39.10200000   64.16000000 L
+ C(PDBName=C227,ResName=CNT,ResNum=25_X)             0   93.56000000   37.67300000   64.42500000 L
+ C(PDBName=C228,ResName=CNT,ResNum=25_X)             0   92.96600000   35.45400000   65.21200000 L
+ C(PDBName=C229,ResName=CNT,ResNum=25_X)             0   92.90100000   34.10700000   64.78000000 L
+ C(PDBName=C230,ResName=CNT,ResNum=25_X)             0   94.12100000   31.89100000   63.65000000 L
+ C(PDBName=C231,ResName=CNT,ResNum=25_X)             0   95.25800000   31.26600000   63.07800000 L
+ C(PDBName=C232,ResName=CNT,ResNum=25_X)             0   97.89900000   31.35600000   62.25700000 L
+ C(PDBName=C233,ResName=CNT,ResNum=25_X)             0   99.11800000   32.05500000   62.11300000 L
+ C(PDBName=C234,ResName=CNT,ResNum=25_X)             0  100.50400000   34.40700000   62.49500000 L
+ C(PDBName=C235,ResName=CNT,ResNum=25_X)             0  100.55300000   35.75600000   62.92900000 L
+ C(PDBName=C236,ResName=CNT,ResNum=25_X)             0   99.38100000   38.01200000   64.04300000 L
+ C(PDBName=C237,ResName=CNT,ResNum=25_X)             0   98.25300000   38.65000000   64.61300000 L
+ C(PDBName=C238,ResName=CNT,ResNum=25_X)             0   95.60700000   38.53200000   65.41300000 L
+ C(PDBName=C239,ResName=CNT,ResNum=25_X)             0   94.40300000   37.79900000   65.54800000 L
+ C(PDBName=C240,ResName=CNT,ResNum=25_X)             0   93.48500000   35.74900000   66.49300000 L
+ C(PDBName=C241,ResName=CNT,ResNum=25_X)             0   93.35900000   33.08100000   65.63600000 L
+ C(PDBName=C242,ResName=CNT,ResNum=25_X)             0   93.99800000   31.95000000   65.05600000 L
+ C(PDBName=C243,ResName=CNT,ResNum=25_X)             0   96.25000000   30.70400000   63.91700000 L
+ C(PDBName=C244,ResName=CNT,ResNum=25_X)             0   97.60600000   30.73500000   63.48600000 L
+ C(PDBName=C245,ResName=CNT,ResNum=25_X)             0  100.02800000   32.09800000   63.19300000 L
+ C(PDBName=C246,ResName=CNT,ResNum=25_X)             0  100.67800000   33.34900000   63.42800000 L
+ C(PDBName=C247,ResName=CNT,ResNum=25_X)             0  100.79000000   36.04800000   64.29200000 L
+ C(PDBName=C248,ResName=CNT,ResNum=25_X)             0  100.20800000   37.21400000   64.86000000 L
+ C(PDBName=C249,ResName=CNT,ResNum=25_X)             0   97.97400000   38.47100000   65.98700000 L
+ C(PDBName=C250,ResName=CNT,ResNum=25_X)             0   96.61300000   38.40400000   66.39700000 L
+ C(PDBName=C251,ResName=CNT,ResNum=25_X)             0   94.22600000   36.95100000   66.66500000 L
+ C(PDBName=C252,ResName=CNT,ResNum=25_X)             0   93.53000000   34.70600000   67.44100000 L
+ C(PDBName=C253,ResName=CNT,ResNum=25_X)             0   93.46500000   33.37000000   67.01300000 L
+ C(PDBName=C254,ResName=CNT,ResNum=25_X)             0   94.79300000   31.07800000   65.82800000 L
+ C(PDBName=C255,ResName=CNT,ResNum=25_X)             0   95.91300000   30.44700000   65.26100000 L
+ C(PDBName=C256,ResName=CNT,ResNum=25_X)             0   98.69500000   30.41400000   64.32500000 L
+ C(PDBName=C257,ResName=CNT,ResNum=25_X)             0   99.95500000   31.04500000   64.14800000 L
+ C(PDBName=C258,ResName=CNT,ResNum=25_X)             0  101.20800000   33.68400000   64.69300000 L
+ C(PDBName=C259,ResName=CNT,ResNum=25_X)             0  101.29400000   35.01800000   65.10800000 L
+ C(PDBName=C260,ResName=CNT,ResNum=25_X)             0  100.14800000   37.41300000   66.25700000 L
+ C(PDBName=C261,ResName=CNT,ResNum=25_X)             0   99.02400000   38.03500000   66.82200000 L
+ C(PDBName=C262,ResName=CNT,ResNum=25_X)             0   96.24500000   37.88400000   67.65700000 L
+ C(PDBName=C263,ResName=CNT,ResNum=25_X)             0   95.05200000   37.15800000   67.79100000 L
+ H(PDBName=H,ResName=CNT,ResNum=25_X)                0   85.83000000   43.14100000   43.47700000 L
+ H(PDBName=H1,ResName=CNT,ResNum=25_X)               0   85.81800000   41.20300000   42.80600000 L
+ H(PDBName=H2,ResName=CNT,ResNum=25_X)               0   86.82900000   39.27100000   41.83300000 L
+ H(PDBName=H3,ResName=CNT,ResNum=25_X)               0   88.45000000   38.32400000   41.00400000 L
+ H(PDBName=H4,ResName=CNT,ResNum=25_X)               0   90.74500000   38.42500000   40.30800000 L
+ H(PDBName=H5,ResName=CNT,ResNum=25_X)               0   92.48800000   39.49400000   40.11200000 L
+ H(PDBName=H6,ResName=CNT,ResNum=25_X)               0   93.74800000   41.51400000   40.39400000 L
+ H(PDBName=H7,ResName=CNT,ResNum=25_X)               0   93.86500000   43.47100000   41.01400000 L
+ H(PDBName=H8,ResName=CNT,ResNum=25_X)               0   92.81100000   45.40200000   41.99400000 L
+ H(PDBName=H9,ResName=CNT,ResNum=25_X)               0   91.14500000   46.28300000   42.81800000 L
+ H(PDBName=H10,ResName=CNT,ResNum=25_X)              0   88.85200000   46.19100000   43.52300000 L
+ H(PDBName=H11,ResName=CNT,ResNum=25_X)              0   87.08100000   45.17100000   43.75500000 L
+ H(PDBName=H12,ResName=CNT,ResNum=25_X)              0   93.80900000   34.88600000   68.47300000 L
+ H(PDBName=H13,ResName=CNT,ResNum=25_X)              0   93.69300000   32.60100000   67.74100000 L
+ H(PDBName=H14,ResName=CNT,ResNum=25_X)              0   94.68700000   31.02400000   66.90400000 L
+ H(PDBName=H15,ResName=CNT,ResNum=25_X)              0   96.60200000   29.94900000   65.93500000 L
+ H(PDBName=H16,ResName=CNT,ResNum=25_X)              0   98.54800000   29.73900000   65.16100000 L
+ H(PDBName=H18,ResName=CNT,ResNum=25_X)              0  101.38300000   32.94500000   65.46000000 L
+ H(PDBName=H19,ResName=CNT,ResNum=25_X)              0  101.56600000   35.19400000   66.13900000 L
+ H(PDBName=H20,ResName=CNT,ResNum=25_X)              0  100.84600000   36.93700000   66.93400000 L
+ H(PDBName=H21,ResName=CNT,ResNum=25_X)              0   98.91500000   37.98400000   67.89900000 L
+ H(PDBName=H22,ResName=CNT,ResNum=25_X)              0   96.94500000   37.84100000   68.48400000 L
+ H(PDBName=H23,ResName=CNT,ResNum=25_X)              0   94.91100000   36.60400000   68.71300000 L
+ N(PDBName=N1,ResName=MOL,ResNum=26_X)               0   93.37600000   29.15200000   68.91300000 L
+ C(PDBName=C1,ResName=MOL,ResNum=26_X)               0   94.24500000   29.85900000   69.72200000 L
+ O(PDBName=O1,ResName=MOL,ResNum=26_X)               0   93.78500000   30.55400000   70.62000000 L
+ C(PDBName=C2,ResName=MOL,ResNum=26_X)               0   95.80700000   29.69500000   69.47000000 L
+ O(PDBName=O2,ResName=MOL,ResNum=26_X)               0   96.47400000   30.47900000   68.80200000 L
+ N(PDBName=N2,ResName=MOL,ResNum=26_X)               0   96.37300000   28.60000000   70.09500000 L
+ C(PDBName=C3,ResName=MOL,ResNum=26_X)               0   97.80500000   28.32600000   70.08600000 L
+ C(PDBName=C4,ResName=MOL,ResNum=26_X)               0   98.22900000   27.57600000   68.81200000 L
+ C(PDBName=C5,ResName=MOL,ResNum=26_X)               0   99.74600000   27.71300000   68.59000000 L
+ C(PDBName=C6,ResName=MOL,ResNum=26_X)               0  100.17600000   27.20300000   67.19800000 L
+ C(PDBName=C7,ResName=MOL,ResNum=26_X)               0  101.62800000   27.59400000   66.82900000 L
+ C(PDBName=C8,ResName=MOL,ResNum=26_X)               0  101.90900000   29.11600000   66.86900000 L
+ N(PDBName=N3,ResName=MOL,ResNum=26_X)               0  100.92200000   29.89400000   66.10000000 L
+ C(PDBName=C9,ResName=MOL,ResNum=26_X)               0  101.16400000   30.58300000   64.93500000 L
+ O(PDBName=O3,ResName=MOL,ResNum=26_X)               0  102.31600000   30.78300000   64.57100000 L
+ H(PDBName=H2,ResName=MOL,ResNum=26_X)               0   92.45200000   29.01500000   69.30300000 L
+ H(PDBName=H3,ResName=MOL,ResNum=26_X)               0   95.76000000   27.99900000   70.64700000 L
+ H(PDBName=H4,ResName=MOL,ResNum=26_X)               0   98.06300000   27.72800000   70.96800000 L
+ H(PDBName=H5,ResName=MOL,ResNum=26_X)               0   98.34200000   29.28200000   70.15500000 L
+ H(PDBName=H6,ResName=MOL,ResNum=26_X)               0   97.70600000   28.01200000   67.95000000 L
+ H(PDBName=H7,ResName=MOL,ResNum=26_X)               0   97.93200000   26.52100000   68.87000000 L
+ H(PDBName=H8,ResName=MOL,ResNum=26_X)               0  100.30000000   27.18500000   69.37600000 L
+ H(PDBName=H9,ResName=MOL,ResNum=26_X)               0   99.99500000   28.77600000   68.68600000 L
+ H(PDBName=H10,ResName=MOL,ResNum=26_X)              0   99.49600000   27.60400000   66.43600000 L
+ H(PDBName=H11,ResName=MOL,ResNum=26_X)              0  100.07200000   26.11100000   67.16000000 L
+ H(PDBName=H12,ResName=MOL,ResNum=26_X)              0  101.84900000   27.21300000   65.82700000 L
+ H(PDBName=H13,ResName=MOL,ResNum=26_X)              0  102.32000000   27.08300000   67.51000000 L
+ H(PDBName=H14,ResName=MOL,ResNum=26_X)              0  102.92100000   29.29900000   66.49100000 L
+ H(PDBName=H15,ResName=MOL,ResNum=26_X)              0  101.89500000   29.46200000   67.91000000 L
+ H(PDBName=H16,ResName=MOL,ResNum=26_X)              0   99.95500000   29.87300000   66.40600000 L
+
+ 1 2 1.0
+ 2 3 1.0
+ 3 4 1.0 5 1.0 6 1.0
+ 4
+ 5
+ 6 7 1.0 26 1.0 8 1.0
+ 7
+ 8 9 1.0
+ 9 10 1.0 11 1.0 28 1.0
+ 10
+ 11 12 1.5 25 1.5
+ 12 13 1.0 14 2.0
+ 13
+ 14 15 1.0
+ 15 16 1.5 25 2.0
+ 16 17 2.0 18 1.0
+ 17
+ 18 20 1.5 19 1.0
+ 19
+ 20 24 1.5 21 1.5
+ 21 23 1.0 22 1.0
+ 22
+ 23
+ 24 25 1.5
+ 25
+ 26 27 1.0 31 1.0 28 1.0
+ 27
+ 28 29 1.0 30 1.0
+ 29
+ 30
+ 31 32 1.0
+ 32 33 2.0 34 2.0 35 2.0
+ 33
+ 34
+ 35 36 1.0
+ 36 37 1.0 38 1.0 39 1.0
+ 37
+ 38
+ 39 40 1.0 41 1.0 59 1.0
+ 40
+ 41 42 1.0
+ 42 43 1.0 44 1.0 61 1.0
+ 43
+ 44 45 1.5 58 1.5
+ 45 46 1.0 47 2.0
+ 46
+ 47 48 1.0
+ 48 49 1.5 58 2.0
+ 49 51 1.0 50 2.0
+ 50
+ 51 52 1.0 53 1.5
+ 52
+ 53 54 1.5 57 1.5
+ 54 55 1.0 56 1.0
+ 55
+ 56
+ 57 58 1.5
+ 58
+ 59 60 1.0 61 1.0 64 1.0
+ 60
+ 61 63 1.0 62 1.0
+ 62
+ 63
+ 64 65 1.0
+ 65 66 2.0 67 2.0 68 2.0
+ 66
+ 67
+ 68 69 1.0
+ 69 70 1.0 71 1.0 72 1.0
+ 70
+ 71
+ 72 73 1.0 74 1.0 92 1.0
+ 73
+ 74 75 1.0
+ 75 77 1.0 94 1.0 76 1.0
+ 76
+ 77 78 1.5 91 1.5
+ 78 79 1.0 80 2.0
+ 79
+ 80 81 1.0
+ 81 82 1.5 91 2.0
+ 82 83 2.0 84 1.0
+ 83
+ 84 85 1.0 86 1.5
+ 85
+ 86 87 1.5 90 1.5
+ 87 88 1.0 89 1.0
+ 88
+ 89
+ 90 91 1.5
+ 91
+ 92 94 1.0 93 1.0 97 1.0
+ 93
+ 94 95 1.0 96 1.0
+ 95
+ 96
+ 97 98 1.0
+ 98 100 2.0 101 2.0 99 2.0
+ 99
+ 100
+ 101 102 1.0
+ 102 103 1.0 104 1.0 105 1.0
+ 103
+ 104
+ 105 106 1.0 107 1.0 122 1.0
+ 106
+ 107 108 1.0
+ 108 109 1.0 110 1.0 124 1.0
+ 109
+ 110 111 1.5 120 1.0
+ 111 113 2.0 112 1.0
+ 112
+ 113 114 1.0 115 1.5
+ 114
+ 115 116 2.0 119 1.5
+ 116 117 1.0 118 1.0
+ 117
+ 118
+ 119 120 1.5
+ 120 121 2.0
+ 121
+ 122 123 1.0 124 1.0 127 1.0
+ 123
+ 124 125 1.0 126 1.0
+ 125
+ 126
+ 127 128 1.0
+ 128 130 2.0 129 2.0 131 2.0
+ 129
+ 130
+ 131 132 1.0
+ 132 135 1.0 133 1.0 134 1.0
+ 133
+ 134
+ 135 136 1.0 137 1.0 152 1.0
+ 136
+ 137 138 1.0
+ 138 140 1.0 139 1.0 154 1.0
+ 139
+ 140 141 1.5 150 1.0
+ 141 142 1.0 143 2.0
+ 142
+ 143 144 1.0 145 1.5
+ 144
+ 145 146 2.0 149 1.5
+ 146 147 1.0 148 1.0
+ 147
+ 148
+ 149 150 1.5
+ 150 151 2.0
+ 151
+ 152 153 1.0 154 1.0 157 1.0
+ 153
+ 154 155 1.0 156 1.0
+ 155
+ 156
+ 157 158 1.0
+ 158 159 2.0 160 2.0 161 2.0
+ 159
+ 160
+ 161 162 1.0
+ 162 165 1.0 164 1.0 163 1.0
+ 163
+ 164
+ 165 182 1.0 166 1.0 167 1.0
+ 166
+ 167 168 1.0
+ 168 170 1.0 184 1.0 169 1.0
+ 169
+ 170 180 1.0 171 1.5
+ 171 173 2.0 172 1.0
+ 172
+ 173 174 1.0 175 1.5
+ 174
+ 175 179 1.5 176 2.0
+ 176 177 1.0 178 1.0
+ 177
+ 178
+ 179 180 1.5
+ 180 181 2.0
+ 181
+ 182 183 1.0 184 1.0 187 1.0
+ 183
+ 184 185 1.0 186 1.0
+ 185
+ 186
+ 187 188 1.0
+ 188 189 2.0 190 2.0 191 2.0
+ 189
+ 190
+ 191 192 1.0
+ 192 193 1.0 194 1.0 195 1.0
+ 193
+ 194
+ 195 196 1.0 215 1.0 197 1.0
+ 196
+ 197 198 1.0
+ 198 217 1.0 199 1.0 200 1.0
+ 199
+ 200 201 1.5 214 1.5
+ 201 203 2.0 202 1.0
+ 202
+ 203 204 1.0
+ 204 205 1.5 214 2.0
+ 205 206 2.0 207 1.0
+ 206
+ 207 208 1.0 209 1.5
+ 208
+ 209 210 1.5 213 1.5
+ 210 211 1.0 212 1.0
+ 211
+ 212
+ 213 214 1.5
+ 214
+ 215 217 1.0 216 1.0 220 1.0
+ 216
+ 217 219 1.0 218 1.0
+ 218
+ 219
+ 220 221 1.0
+ 221 223 2.0 222 2.0 224 2.0
+ 222
+ 223
+ 224 225 1.0
+ 225 226 1.0 227 1.0 228 1.0
+ 226
+ 227
+ 228 229 1.0 230 1.0 248 1.0
+ 229
+ 230 231 1.0
+ 231 232 1.0 233 1.0 250 1.0
+ 232
+ 233 234 1.5 247 1.5
+ 234 235 1.0 236 2.0
+ 235
+ 236 237 1.0
+ 237 247 2.0 238 1.5
+ 238 240 1.0 239 2.0
+ 239
+ 240 241 1.0 242 1.5
+ 241
+ 242 246 1.5 243 1.5
+ 243 245 1.0 244 1.0
+ 244
+ 245
+ 246 247 1.5
+ 247
+ 248 250 1.0 249 1.0 253 1.0
+ 249
+ 250 251 1.0 252 1.0
+ 251
+ 252
+ 253 254 1.0
+ 254 257 2.0 256 2.0 255 2.0
+ 255
+ 256
+ 257 258 1.0
+ 258 259 1.0 260 1.0 261 1.0
+ 259
+ 260
+ 261 262 1.0 263 1.0 281 1.0
+ 262
+ 263 264 1.0
+ 264 265 1.0 266 1.0 283 1.0
+ 265
+ 266 280 1.5 267 1.5
+ 267 269 2.0 268 1.0
+ 268
+ 269 270 1.0
+ 270 271 1.5 280 2.0
+ 271 273 1.0 272 2.0
+ 272
+ 273 274 1.0 275 1.5
+ 274
+ 275 276 1.5 279 1.5
+ 276 277 1.0 278 1.0
+ 277
+ 278
+ 279 280 1.5
+ 280
+ 281 282 1.0 283 1.0 286 1.0
+ 282
+ 283 284 1.0 285 1.0
+ 284
+ 285
+ 286 287 1.0
+ 287 288 2.0 289 2.0 290 2.0
+ 288
+ 289
+ 290 291 1.0
+ 291 294 1.0 292 1.0 293 1.0
+ 292
+ 293
+ 294 295 1.0 296 1.0 311 1.0
+ 295
+ 296 297 1.0
+ 297 298 1.0 313 1.0 299 1.0
+ 298
+ 299 300 1.5 309 1.0
+ 300 301 1.0 302 2.0
+ 301
+ 302 303 1.0 304 1.5
+ 303
+ 304 305 2.0 308 1.5
+ 305 306 1.0 307 1.0
+ 306
+ 307
+ 308 309 1.5
+ 309 310 2.0
+ 310
+ 311 312 1.0 313 1.0 316 1.0
+ 312
+ 313 314 1.0 315 1.0
+ 314
+ 315
+ 316 317 1.0
+ 317 319 2.0 318 2.0 320 2.0
+ 318
+ 319
+ 320 321 1.0
+ 321 324 1.0 322 1.0 323 1.0
+ 322
+ 323
+ 324 325 1.0 326 1.0 341 1.0
+ 325
+ 326 327 1.0
+ 327 328 1.0 343 1.0 329 1.0
+ 328
+ 329 339 1.0 330 1.5
+ 330 331 1.0 332 2.0
+ 331
+ 332 333 1.0 334 1.5
+ 333
+ 334 338 1.5 335 2.0
+ 335 337 1.0 336 1.0
+ 336
+ 337
+ 338 339 1.5
+ 339 340 2.0
+ 340
+ 341 342 1.0 343 1.0 346 1.0
+ 342
+ 343 344 1.0 345 1.0
+ 344
+ 345
+ 346 347 1.0
+ 347 348 2.0 349 2.0 350 2.0
+ 348
+ 349
+ 350 351 1.0
+ 351 353 1.0 354 1.0 352 1.0
+ 352
+ 353
+ 354 371 1.0 355 1.0 356 1.0
+ 355
+ 356 357 1.0
+ 357 373 1.0 358 1.0 359 1.0
+ 358
+ 359 360 1.5 369 1.0
+ 360 361 1.0 362 2.0
+ 361
+ 362 363 1.0 364 1.5
+ 363
+ 364 365 2.0 368 1.5
+ 365 366 1.0 367 1.0
+ 366
+ 367
+ 368 369 1.5
+ 369 370 2.0
+ 370
+ 371 372 1.0 373 1.0 376 1.0
+ 372
+ 373 375 1.0 374 1.0
+ 374
+ 375
+ 376 377 1.0
+ 377
+ 378 379 1.0
+ 379 380 1.0
+ 380 381 1.0 382 1.0 383 1.0
+ 381
+ 382
+ 383 384 1.0 385 1.0 403 1.0
+ 384
+ 385 386 1.0
+ 386 388 1.0 387 1.0 405 1.0
+ 387
+ 388 389 1.5 402 1.5
+ 389 390 1.0 391 2.0
+ 390
+ 391 392 1.0
+ 392 393 1.5 402 2.0
+ 393 394 2.0 395 1.0
+ 394
+ 395 396 1.0 397 1.5
+ 396
+ 397 401 1.5 398 1.5
+ 398 399 1.0 400 1.0
+ 399
+ 400
+ 401 402 1.5
+ 402
+ 403 408 1.0 404 1.0 405 1.0
+ 404
+ 405 407 1.0 406 1.0
+ 406
+ 407
+ 408 409 1.0
+ 409 412 2.0 410 2.0 411 2.0
+ 410
+ 411
+ 412 413 1.0
+ 413 414 1.0 415 1.0 416 1.0
+ 414
+ 415
+ 416 417 1.0 418 1.0 436 1.0
+ 417
+ 418 419 1.0
+ 419 420 1.0 421 1.0 438 1.0
+ 420
+ 421 422 1.5 435 1.5
+ 422 423 1.0 424 2.0
+ 423
+ 424 425 1.0
+ 425 426 1.5 435 2.0
+ 426 428 1.0 427 2.0
+ 427
+ 428 429 1.0 430 1.5
+ 429
+ 430 431 1.5 434 1.5
+ 431 432 1.0 433 1.0
+ 432
+ 433
+ 434 435 1.5
+ 435
+ 436 438 1.0 437 1.0 441 1.0
+ 437
+ 438 439 1.0 440 1.0
+ 439
+ 440
+ 441 442 1.0
+ 442 443 2.0 444 2.0 445 2.0
+ 443
+ 444
+ 445 446 1.0
+ 446 448 1.0 449 1.0 447 1.0
+ 447
+ 448
+ 449 450 1.0 451 1.0 469 1.0
+ 450
+ 451 452 1.0
+ 452 453 1.0 454 1.0 471 1.0
+ 453
+ 454 468 1.5 455 1.5
+ 455 457 2.0 456 1.0
+ 456
+ 457 458 1.0
+ 458 459 1.5 468 2.0
+ 459 461 1.0 460 2.0
+ 460
+ 461 463 1.5 462 1.0
+ 462
+ 463 464 1.5 467 1.5
+ 464 466 1.0 465 1.0
+ 465
+ 466
+ 467 468 1.5
+ 468
+ 469 470 1.0 471 1.0 474 1.0
+ 470
+ 471 473 1.0 472 1.0
+ 472
+ 473
+ 474 475 1.0
+ 475 476 2.0 477 2.0 478 2.0
+ 476
+ 477
+ 478 479 1.0
+ 479 480 1.0 481 1.0 482 1.0
+ 480
+ 481
+ 482 483 1.0 484 1.0 499 1.0
+ 483
+ 484 485 1.0
+ 485 486 1.0 487 1.0 501 1.0
+ 486
+ 487 488 1.5 497 1.0
+ 488 489 1.0 490 2.0
+ 489
+ 490 491 1.0 492 1.5
+ 491
+ 492 496 1.5 493 2.0
+ 493 494 1.0 495 1.0
+ 494
+ 495
+ 496 497 1.5
+ 497 498 2.0
+ 498
+ 499 504 1.0 500 1.0 501 1.0
+ 500
+ 501 503 1.0 502 1.0
+ 502
+ 503
+ 504 505 1.0
+ 505 508 2.0 507 2.0 506 2.0
+ 506
+ 507
+ 508 509 1.0
+ 509 510 1.0 511 1.0 512 1.0
+ 510
+ 511
+ 512 513 1.0 529 1.0 514 1.0
+ 513
+ 514 515 1.0
+ 515 516 1.0 517 1.0 531 1.0
+ 516
+ 517 518 1.5 527 1.0
+ 518 519 1.0 520 2.0
+ 519
+ 520 521 1.0 522 1.5
+ 521
+ 522 526 1.5 523 2.0
+ 523 524 1.0 525 1.0
+ 524
+ 525
+ 526 527 1.5
+ 527 528 2.0
+ 528
+ 529 530 1.0 534 1.0 531 1.0
+ 530
+ 531 532 1.0 533 1.0
+ 532
+ 533
+ 534 535 1.0
+ 535 536 2.0 538 2.0 537 2.0
+ 536
+ 537
+ 538 539 1.0
+ 539 540 1.0 541 1.0 542 1.0
+ 540
+ 541
+ 542 543 1.0 544 1.0 559 1.0
+ 543
+ 544 545 1.0
+ 545 561 1.0 546 1.0 547 1.0
+ 546
+ 547 548 1.5 557 1.0
+ 548 549 1.0 550 2.0
+ 549
+ 550 551 1.0 552 1.5
+ 551
+ 552 553 2.0 556 1.5
+ 553 554 1.0 555 1.0
+ 554
+ 555
+ 556 557 1.5
+ 557 558 2.0
+ 558
+ 559 560 1.0 561 1.0 564 1.0
+ 560
+ 561 562 1.0 563 1.0
+ 562
+ 563
+ 564 565 1.0
+ 565 566 2.0 567 2.0 568 2.0
+ 566
+ 567
+ 568 569 1.0
+ 569 570 1.0 571 1.0 572 1.0
+ 570
+ 571
+ 572 573 1.0 574 1.0 592 1.0
+ 573
+ 574 575 1.0
+ 575 576 1.0 577 1.0 594 1.0
+ 576
+ 577 591 1.5 578 1.5
+ 578 579 1.0 580 2.0
+ 579
+ 580 581 1.0
+ 581 591 2.0 582 1.5
+ 582 584 1.0 583 2.0
+ 583
+ 584 585 1.0 586 1.5
+ 585
+ 586 590 1.5 587 1.5
+ 587 588 1.0 589 1.0
+ 588
+ 589
+ 590 591 1.5
+ 591
+ 592 593 1.0 597 1.0 594 1.0
+ 593
+ 594 595 1.0 596 1.0
+ 595
+ 596
+ 597 598 1.0
+ 598 599 2.0 601 2.0 600 2.0
+ 599
+ 600
+ 601 602 1.0
+ 602 603 1.0 604 1.0 605 1.0
+ 603
+ 604
+ 605 606 1.0 607 1.0 625 1.0
+ 606
+ 607 608 1.0
+ 608 609 1.0 610 1.0 627 1.0
+ 609
+ 610 611 1.5 624 1.5
+ 611 612 1.0 613 2.0
+ 612
+ 613 614 1.0
+ 614 615 1.5 624 2.0
+ 615 616 2.0 617 1.0
+ 616
+ 617 618 1.0 619 1.5
+ 618
+ 619 620 1.5 623 1.5
+ 620 621 1.0 622 1.0
+ 621
+ 622
+ 623 624 1.5
+ 624
+ 625 626 1.0 630 1.0 627 1.0
+ 626
+ 627 628 1.0 629 1.0
+ 628
+ 629
+ 630 631 1.0
+ 631 632 2.0 633 2.0 634 2.0
+ 632
+ 633
+ 634 635 1.0
+ 635 636 1.0 637 1.0 638 1.0
+ 636
+ 637
+ 638 639 1.0 640 1.0 658 1.0
+ 639
+ 640 641 1.0
+ 641 642 1.0 643 1.0 660 1.0
+ 642
+ 643 657 1.5 644 1.5
+ 644 646 2.0 645 1.0
+ 645
+ 646 647 1.0
+ 647 648 1.5 657 2.0
+ 648 649 2.0 650 1.0
+ 649
+ 650 651 1.0 652 1.5
+ 651
+ 652 653 1.5 656 1.5
+ 653 654 1.0 655 1.0
+ 654
+ 655
+ 656 657 1.5
+ 657
+ 658 659 1.0 660 1.0 663 1.0
+ 659
+ 660 661 1.0 662 1.0
+ 661
+ 662
+ 663 664 1.0
+ 664 665 2.0 666 2.0 667 2.0
+ 665
+ 666
+ 667 668 1.0
+ 668 671 1.0 669 1.0 670 1.0
+ 669
+ 670
+ 671 672 1.0 673 1.0 688 1.0
+ 672
+ 673 674 1.0
+ 674 676 1.0 675 1.0 690 1.0
+ 675
+ 676 686 1.0 677 1.5
+ 677 678 1.0 679 2.0
+ 678
+ 679 681 1.5 680 1.0
+ 680
+ 681 685 1.5 682 2.0
+ 682 683 1.0 684 1.0
+ 683
+ 684
+ 685 686 1.5
+ 686 687 2.0
+ 687
+ 688 689 1.0 693 1.0 690 1.0
+ 689
+ 690 691 1.0 692 1.0
+ 691
+ 692
+ 693 694 1.0
+ 694 697 2.0 695 2.0 696 2.0
+ 695
+ 696
+ 697 698 1.0
+ 698 699 1.0 700 1.0 701 1.0
+ 699
+ 700
+ 701 702 1.0 703 1.0 718 1.0
+ 702
+ 703 704 1.0
+ 704 706 1.0 720 1.0 705 1.0
+ 705
+ 706 716 1.0 707 1.5
+ 707 708 1.0 709 2.0
+ 708
+ 709 711 1.5 710 1.0
+ 710
+ 711 712 2.0 715 1.5
+ 712 713 1.0 714 1.0
+ 713
+ 714
+ 715 716 1.5
+ 716 717 2.0
+ 717
+ 718 719 1.0 720 1.0 723 1.0
+ 719
+ 720 721 1.0 722 1.0
+ 721
+ 722
+ 723 724 1.5
+ 724 725 2.0 726 2.0 727 1.5
+ 725
+ 726
+ 727 728 1.0
+ 728 729 1.0 730 1.0 731 1.0
+ 729
+ 730
+ 731 732 1.0 733 1.0 748 1.0
+ 732
+ 733 734 1.0
+ 734 735 1.0 736 1.0 750 1.0
+ 735
+ 736 737 1.5 746 1.0
+ 737 739 2.0 738 1.0
+ 738
+ 739 741 1.5 740 1.0
+ 740
+ 741 742 2.0 745 2.0
+ 742 743 1.0 744 1.0
+ 743
+ 744
+ 745 746 1.5
+ 746 747 2.0
+ 747
+ 748 749 1.0 752 1.0 750 1.0
+ 749
+ 750 751 1.0 1041 1.0
+ 751
+ 752 753 1.0
+ 753
+ 754 765 1.5 766 1.5 1018 1.0
+ 755 756 1.5 1019 1.0 767 1.5
+ 756 1020 1.0 768 1.5
+ 757 769 1.5 1021 1.0 758 1.5
+ 758 770 1.5 1022 1.0
+ 759 771 1.5 1023 1.0 760 1.5
+ 760 772 1.5 1024 1.0
+ 761 762 1.5 773 1.5 1025 1.0
+ 762 1026 1.0 774 1.5
+ 763 1027 1.0 764 1.5 775 1.5
+ 764 1028 1.0 776 1.5
+ 765 777 1.5 1029 1.0
+ 766 767 1.5 778 1.5
+ 767 779 1.5
+ 768 769 1.5 780 1.5
+ 769 781 1.5
+ 770 771 1.5 782 1.5
+ 771 783 1.5
+ 772 784 1.5 773 1.5
+ 773 785 1.5
+ 774 775 1.5 786 1.5
+ 775 787 1.5
+ 776 777 1.5 788 1.5
+ 777 789 1.5
+ 778 789 1.5 790 1.5
+ 779 780 1.5 791 1.5
+ 780 792 1.5
+ 781 782 1.5 793 1.5
+ 782 794 1.5
+ 783 784 1.5 795 1.5
+ 784 796 1.5
+ 785 786 1.5 797 1.5
+ 786 798 1.5
+ 787 788 1.5 799 1.5
+ 788 800 1.5
+ 789 801 1.5
+ 790 791 1.5 802 1.5
+ 791 803 1.5
+ 792 804 1.5 793 1.5
+ 793 805 1.5
+ 794 795 1.5 806 1.5
+ 795 807 1.5
+ 796 797 1.5 808 1.5
+ 797 809 1.5
+ 798 799 1.5 810 1.5
+ 799 811 1.5
+ 800 801 1.5 812 1.5
+ 801 813 1.5
+ 802 813 1.5 814 1.5
+ 803 804 1.5 815 1.5
+ 804 816 1.5
+ 805 806 1.5 817 1.5
+ 806 818 1.5
+ 807 819 1.5 808 1.5
+ 808 820 1.5
+ 809 810 1.5 821 1.5
+ 810 822 1.5
+ 811 812 1.5 823 1.5
+ 812 824 1.5
+ 813 825 1.5
+ 814 815 1.5 826 1.5
+ 815 827 1.5
+ 816 817 1.5 828 1.5
+ 817 829 1.5
+ 818 819 1.5 830 1.5
+ 819 831 1.5
+ 820 832 1.5 821 1.5
+ 821 833 1.5
+ 822 823 1.5 834 1.5
+ 823 835 1.5
+ 824 825 1.5 836 1.5
+ 825 837 1.5
+ 826 838 1.5 837 1.5
+ 827 839 1.5 828 1.5
+ 828 840 1.5
+ 829 830 1.5 841 1.5
+ 830 842 1.5
+ 831 843 1.5 832 1.5
+ 832 844 1.5
+ 833 845 1.5 834 1.5
+ 834 846 1.5
+ 835 836 1.5 847 1.5
+ 836 848 1.5
+ 837 849 1.5
+ 838 839 1.5 850 1.5
+ 839 851 1.5
+ 840 841 1.5 852 1.5
+ 841 853 1.5
+ 842 843 1.5 854 1.5
+ 843 855 1.5
+ 844 845 1.5 856 1.5
+ 845 857 1.5
+ 846 847 1.5 858 1.5
+ 847 859 1.5
+ 848 849 1.5 860 1.5
+ 849 861 1.5
+ 850 862 1.5 861 1.5
+ 851 852 1.5 863 1.5
+ 852 864 1.5
+ 853 854 1.5 865 1.5
+ 854 866 1.5
+ 855 856 1.5 867 1.5
+ 856 868 1.5
+ 857 869 1.5 858 1.5
+ 858 870 1.5
+ 859 860 1.5 871 1.5
+ 860 872 1.5
+ 861 873 1.5
+ 862 863 1.5 874 1.5
+ 863 875 1.5
+ 864 865 1.5 876 1.5
+ 865 877 1.5
+ 866 878 1.5 867 1.5
+ 867 879 1.5
+ 868 869 1.5 880 1.5
+ 869 881 1.5
+ 870 871 1.5 882 1.5
+ 871 883 1.5
+ 872 873 1.5 884 1.5
+ 873 885 1.5
+ 874 886 1.5 885 1.5
+ 875 876 1.5 887 1.5
+ 876 888 1.5
+ 877 889 1.5 878 1.5
+ 878 890 1.5
+ 879 880 1.5 891 1.5
+ 880 892 1.5
+ 881 893 1.5 882 1.5
+ 882 894 1.5
+ 883 884 1.5 895 1.5
+ 884 896 1.5
+ 885 897 1.5
+ 886 887 1.5 898 1.5
+ 887 899 1.5
+ 888 889 1.5 900 1.5
+ 889 901 1.5
+ 890 902 1.5 891 1.5
+ 891 903 1.5
+ 892 893 1.5 904 1.5
+ 893 905 1.5
+ 894 906 1.5 895 1.5
+ 895 907 1.5
+ 896 897 1.5 908 1.5
+ 897 909 1.5
+ 898 909 1.5 910 1.5
+ 899 900 1.5 911 1.5
+ 900 912 1.5
+ 901 902 1.5 913 1.5
+ 902 914 1.5
+ 903 915 1.5 904 1.5
+ 904 916 1.5
+ 905 906 1.5 917 1.5
+ 906 918 1.5
+ 907 908 1.5 919 1.5
+ 908 920 1.5
+ 909 921 1.5
+ 910 911 1.5 922 1.5
+ 911 923 1.5
+ 912 913 1.5 924 1.5
+ 913 925 1.5
+ 914 915 1.5 926 1.5
+ 915 927 1.5
+ 916 917 1.5 928 1.5
+ 917 929 1.5
+ 918 930 1.5 919 1.5
+ 919 931 1.5
+ 920 921 1.5 932 1.5
+ 921 933 1.5
+ 922 933 1.5 934 1.5
+ 923 924 1.5 935 1.5
+ 924 936 1.5
+ 925 937 1.5 926 1.5
+ 926 938 1.5
+ 927 939 1.5 928 1.5
+ 928 940 1.5
+ 929 930 1.5 941 1.5
+ 930 942 1.5
+ 931 932 1.5 943 1.5
+ 932 944 1.5
+ 933 945 1.5
+ 934 935 1.5 946 1.5
+ 935 947 1.5
+ 936 937 1.5 948 1.5
+ 937 949 1.5
+ 938 939 1.5 950 1.5
+ 939 951 1.5
+ 940 941 1.5 952 1.5
+ 941 953 1.5
+ 942 943 1.5 954 1.5
+ 943 955 1.5
+ 944 945 1.5 956 1.5
+ 945 957 1.5
+ 946 957 1.5 958 1.5
+ 947 948 1.5 959 1.5
+ 948 960 1.5
+ 949 961 1.5 950 1.5
+ 950 962 1.5
+ 951 963 1.5 952 1.5
+ 952 964 1.5
+ 953 954 1.5 965 1.5
+ 954 966 1.5
+ 955 956 1.5 967 1.5
+ 956 968 1.5
+ 957 969 1.5
+ 958 959 1.5 970 1.5
+ 959 971 1.5
+ 960 961 1.5 972 1.5
+ 961 973 1.5
+ 962 963 1.5 974 1.5
+ 963 975 1.5
+ 964 976 1.5 965 1.5
+ 965 977 1.5
+ 966 967 1.5 978 1.5
+ 967 979 1.5
+ 968 969 1.5 980 1.5
+ 969 981 1.5
+ 970 981 1.5 982 1.5
+ 971 972 1.5 983 1.5
+ 972 984 1.5
+ 973 974 1.5 985 1.5
+ 974 986 1.5
+ 975 976 1.5 987 1.5
+ 976 988 1.5
+ 977 978 1.5 989 1.5
+ 978 990 1.5
+ 979 980 1.5 991 1.5
+ 980 992 1.5
+ 981 993 1.5
+ 982 983 1.5 994 1.5
+ 983 995 1.5
+ 984 996 1.5 985 1.5
+ 985 997 1.5
+ 986 987 1.5 998 1.5
+ 987 999 1.5
+ 988 1000 1.5 989 1.5
+ 989 1001 1.5
+ 990 991 1.5 1002 1.5
+ 991 1003 1.5
+ 992 993 1.5 1004 1.5
+ 993 1005 1.5
+ 994 1005 1.5 1006 1.5
+ 995 996 1.5 1007 1.5
+ 996 1008 1.5
+ 997 998 1.5 1009 1.5
+ 998 1010 1.5
+ 999 1000 1.5 1011 1.5
+ 1000 1012 1.5
+ 1001 1002 1.5 1013 1.5
+ 1002 1014 1.5
+ 1003 1004 1.5 1015 1.5
+ 1004 1016 1.5
+ 1005 1017 1.5
+ 1006 1007 1.5 1030 1.0
+ 1007 1031 1.0
+ 1008 1032 1.0 1009 1.5
+ 1009 1033 1.0
+ 1010 1011 1.5 1034 1.0
+ 1011 1054 1.0
+ 1012 1035 1.0 1013 1.5
+ 1013 1036 1.0
+ 1014 1015 1.5 1037 1.0
+ 1015 1038 1.0
+ 1016 1017 1.5 1039 1.0
+ 1017 1040 1.0
+ 1018
+ 1019
+ 1020
+ 1021
+ 1022
+ 1023
+ 1024
+ 1025
+ 1026
+ 1027
+ 1028
+ 1029
+ 1030
+ 1031
+ 1032
+ 1033
+ 1034
+ 1035
+ 1036
+ 1037
+ 1038
+ 1039
+ 1040
+ 1041 1042 1.0 1056 1.0
+ 1042 1043 2.0 1044 1.0
+ 1043
+ 1044 1045 2.0 1046 1.0
+ 1045
+ 1046 1047 1.0 1057 1.0
+ 1047 1048 1.0 1058 1.0 1059 1.0
+ 1048 1049 1.0 1060 1.0 1061 1.0
+ 1049 1050 1.0 1062 1.0 1063 1.0
+ 1050 1064 1.0 1065 1.0 1051 1.0
+ 1051 1066 1.0 1067 1.0 1052 1.0
+ 1052 1053 1.0 1068 1.0 1069 1.0
+ 1053 1070 1.0 1054 1.5
+ 1054 1055 2.0
+ 1055
+ 1056
+ 1057
+ 1058
+ 1059
+ 1060
+ 1061
+ 1062
+ 1063
+ 1064
+ 1065
+ 1066
+ 1067
+ 1068
+ 1069
+ 1070
+
+
+DLCa.mat
+
+
