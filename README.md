@@ -1,6 +1,6 @@
 # DNA-Linkers-CNT_work
 
-This repository contains the complete computational workflow for the study of DNA–Linker–CNT hybrid systems, including Molecular Dynamics (MD), Density Functional Theory (DFT), and Charge Transport (CT) analysis. Figures 1–4 from the associated publication are generated from this pipeline.
+This repository contains the complete computational workflow for the study of DNA–Linker–CNT hybrid systems, including Molecular Dynamics (MD), Density Functional Theory (DFT), and Charge Transport (CT) analysis. Figures 1–4 from the associated publication are generated from this framework.
 
 ---
 
