@@ -9,8 +9,8 @@ This repository contains the complete computational workflow for the study of DN
 
 ### 1. Structure Preparation for MD
 Prepare the initial systems with DNA and linker (Ester or Amino) connected to CNT:
-- `MD_DNA-Ester Linker-CNT/` → Contains `DEC.rst7`, `DEC.parm7`
-- `MD_DNA-Amino Linker-CNT/` → Contains `DLC.rst7`, `DLC.parm7`
+- `MD/MD_DNA-Ester Linker-CNT/` → Contains `DEC.rst7`, `DEC.parm7`
+- `MD/MD_DNA-Amino Linker-CNT/` → Contains `DLC.rst7`, `DLC.parm7`
 
 Both folders include:
 - AMBER input files: `mini1.in`, `mini2.in`, `heat.in`, `eq.in`, `md.in`
@@ -25,7 +25,7 @@ Run classical MD simulations using the input files above:
 
 ### 3. MD Analysis → **Figure 1**
 Post-processing of MD trajectories to analyze DNA fluctuations:
-- `MD_Analysis/`
+- `MD/MD_Analysis/`
   - `RMSD_Calc.tcl`, `RMSF_Calc_all.tcl`, `RMSF_calcSI.ipynb`
 - `Figures/F1_RMSD/`
   - `RMSD_Plot.ipynb` → Produces Figure 1
@@ -60,10 +60,11 @@ Visualize HOMO/LUMO orbitals from DFT:
 ##  Repository Layout
 
 ```
-.
-├── MD_DNA-Ester Linker-CNT/        # MD prep for ester linker
-├── MD_DNA-Amino Linker-CNT/        # MD prep for amino linker
-├── MD_Analysis/                    # RMSD/RMSF scripts
+.DNA-Linkers-CNT_work
+├── MD
+│   ├── MD_DNA-Amino Linker-CNT/    # MD prep for amino linker
+│   ├── MD_DNA-Ester Linker-CNT/    # MD prep for ester linker
+│   ├── MD_Analysis/                # RMSD/RMSF scripts
 ├── DFT_and_CT/                     # DFT inputs + Transmission MATLAB script
 ├── Figures/
 │   ├── F1_RMSD/                    # RMSD plot (Fig. 1)
