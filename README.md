@@ -5,12 +5,13 @@ This repository contains the complete computational workflow for the study of DN
 ---
 
 ## Project Workflow
-<img width="666" height="596" alt="image" src="https://github.com/user-attachments/assets/ec5ccbef-7519-4ac5-a56b-49f9cea655fc" />
+<img width="666" height="596" alt="image" src="https://github.com/user-attachments/assets/7714e0ed-448c-4f39-af9a-a9190a67c745" />
+
 
 ### 1. Structure Preparation for MD
 Prepare the initial systems with DNA and linker (Ester or Amino) connected to CNT:
-- `MD/MD_DNA-Ester Linker-CNT/` → Contains `DEC.rst7`, `DEC.parm7`
-- `MD/MD_DNA-Amino Linker-CNT/` → Contains `DLC.rst7`, `DLC.parm7`
+- `1_MD/MD_DNA-Ester Linker-CNT/` → Contains `DEC.rst7`, `DEC.parm7`
+- `1_MD/MD_DNA-Amino Linker-CNT/` → Contains `DLC.rst7`, `DLC.parm7`
 
 Both folders include:
 - AMBER input files: `mini1.in`, `mini2.in`, `heat.in`, `eq.in`, `md.in`
@@ -25,16 +26,16 @@ Run classical MD simulations using the input files above:
 
 ### 3. MD Analysis → **Figure 1**
 Post-processing of MD trajectories to analyze DNA fluctuations:
-- `MD/MD_Analysis/`
+- `1_MD/MD_Analysis/`
   - `RMSD_Calc.tcl`, `RMSF_Calc_all.tcl`, `RMSF_calcSI.ipynb`
-- `Figures/F1_RMSD/`
+- `3_Figures/F1_RMSD/`
   - `RMSD_Plot.ipynb` → Produces Figure 1
 
 ---
 
 ### 4. DFT Calculations (from MD structures)
 Extract structures at 0 ns and 100 ns and perform DFT:
-- `DFT_and_CT/`
+- `2_DFT_and_CT/`
   - Gaussian input files: `DEC_0ns.gjf`, `DEC_100ns.gjf`, etc.
 - Optimized geometries used for CT and cube files generation
 
@@ -42,8 +43,8 @@ Extract structures at 0 ns and 100 ns and perform DFT:
 
 ### 5. Charge Transport → **Figures 2 & 4**
 Calculate transmission and CT coupling:
-- `DFT_and_CT/DNATransmission_Decoherence.m` → Transmission calculations
-- `Figures/F2_CT/` and `F4_CTcoupling/`
+- `2_DFT_and_CT/DNATransmission_Decoherence.m` → Transmission calculations
+- `3_Figures/F2_CT/` and `F4_CTcoupling/`
   - `.mat` and `.m` files: `Tr_plot.m`, `CT_coupling_plot.m`, etc.
   - Inputs from DFT outputs → Figures 2 and 4
 
@@ -51,7 +52,7 @@ Calculate transmission and CT coupling:
 
 ### 6. Cube Files for Orbital Plots → **Figure 3**
 Visualize HOMO/LUMO orbitals from DFT:
-- `Figures/F3_HLcubes/`
+- `3_Figures/F3_HLcubes/`
   - Contains cube files for both linkers at 0 ns and 100 ns
   - Used for plotting orbital isosurfaces shown in Figure 3
 
@@ -61,12 +62,12 @@ Visualize HOMO/LUMO orbitals from DFT:
 
 ```
 .DNA-Linkers-CNT_work
-├── MD
+├── 1_MD
 │   ├── MD_DNA-Amino Linker-CNT/    # MD prep for amino linker
 │   ├── MD_DNA-Ester Linker-CNT/    # MD prep for ester linker
 │   ├── MD_Analysis/                # RMSD/RMSF scripts
-├── DFT_and_CT/                     # DFT inputs + Transmission MATLAB script
-├── Figures/
+├── 2_DFT_and_CT/                     # DFT inputs + Transmission MATLAB script
+├── 3_Figures/
 │   ├── F1_RMSD/                    # RMSD plot (Fig. 1)
 │   ├── F2_CT/                      # Transmission data (Fig. 2)
 │   ├── F3_HLcubes/                 # Cube files for orbitals (Fig. 3)
