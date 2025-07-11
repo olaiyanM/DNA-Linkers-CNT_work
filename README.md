@@ -5,7 +5,7 @@ This repository contains the complete computational workflow for the study of DN
 ---
 
 ## Project Workflow
-<img width="666" height="596" alt="image" src="https://github.com/user-attachments/assets/694ecbf9-4811-4fd4-be64-eb5361b9f522" />
+<img width="666" height="596" alt="image" src="https://github.com/user-attachments/assets/ec5ccbef-7519-4ac5-a56b-49f9cea655fc" />
 
 ### 1. Structure Preparation for MD
 Prepare the initial systems with DNA and linker (Ester or Amino) connected to CNT:
